@@ -1,14 +1,14 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T13:05:16.154Z",
+  "generatedAt": "2026-10-15T13:08:39.842Z",
   "games": [
     {
       "id": "sweetfang",
       "title": "Sweetfang",
       "publisher": "HAMMS Studios",
       "partner": false,
-      "status": "coming-soon",
+      "status": "released",
       "featured": true,
       "order": 1,
       "type": "download",
@@ -78,7 +78,31 @@
         "{appdata}/Godot/app_userdata/Sweetfang/shader_cache"
       ],
       "liteExecutable": "Sweetfang_Lite.exe",
-      "builds": {}
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "1.14.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/sweetfang-v1.14.0/Sweetfang.exe",
+          "sha256": "03cc33bdb1fee3a6c155c501c9a4bdffb64f119d6f875b366861cd1ab6914eeb",
+          "size": 319660072,
+          "executable": "Sweetfang.exe",
+          "launchArgs": [],
+          "released": "2026-10-15",
+          "patchNotes": [
+            {
+              "version": "1.14.0",
+              "date": "2026-10-15",
+              "changes": [
+                "Fixed dialogue loops",
+                "New boss lairs",
+                "Ember Oil",
+                "Wardrobe: dress up Mochi",
+                "Bug fixes and polish"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "brick-workshop",
