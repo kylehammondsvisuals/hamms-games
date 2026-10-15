@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T14:16:02.270Z",
+  "generatedAt": "2026-10-15T14:29:34.539Z",
   "games": [
     {
       "id": "sweetfang",
@@ -324,10 +324,10 @@
         },
         "lite": {
           "label": "Low Spec",
-          "version": "1.0.1",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/glint-lite-v1.0.1/glint-lite-1.0.1.zip",
-          "sha256": "ad2ca5b14668874f3eb418d89621d09bf59c8bc96f8fab8540a47e07b0853266",
-          "size": 69711479,
+          "version": "1.0.2",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/glint-lite-v1.0.2/glint-lite-1.0.2.zip",
+          "sha256": "796c0a76971351ff6fc03881ceda74b2aea162011f614996607f2425f8d36e85",
+          "size": 70047695,
           "executable": "GLINT.exe",
           "launchArgs": [
             "--rendering-driver",
@@ -337,6 +337,23 @@
           ],
           "released": "2026-10-15",
           "patchNotes": [
+            {
+              "version": "1.0.2",
+              "date": "2026-10-15",
+              "changes": [
+                "Low Spec build for older PCs and laptops",
+                "New HAMMS Studios intro, credits now say A HAMMS STUDIOS GAME",
+                "Active reload: hit RB / R in the blue zone for an instant reload and a power round (1.85x damage, one body shot kills)",
+                "Reload bar moved to the lower middle of the screen",
+                "Three scope zoom levels with smooth zoom (D-pad up/down or mouse wheel)",
+                "Smooth shoulder swap",
+                "Enemy names removed",
+                "Smaller scope glint",
+                "New side lighting and character rim light, both islands lit the same",
+                "Fixed ground and flat surfaces rendering nearly black",
+                "Opens through the HAMMS launcher; your HAMMS name is your gamertag"
+              ]
+            },
             {
               "version": "1.0.1",
               "date": "2026-10-15",
