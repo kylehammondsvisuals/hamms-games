@@ -58,5 +58,5 @@
       }
     }
   },
-  "executable": "BrickWorkshop.exe"
+  "executable": "BrickWorkshop.exe", "launchArgs": ["--disable-features=ImmersiveReadAnything"]
 }
