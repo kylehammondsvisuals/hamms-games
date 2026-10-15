@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T12:58:11.960Z",
+  "generatedAt": "2026-10-15T13:00:59.631Z",
   "games": [
     {
       "id": "sweetfang",
@@ -157,6 +157,26 @@
               "date": "2026-10-15",
               "changes": [
                 "First release on the HAMMS Studios launcher",
+                "Signs in with your HAMMS account and fills in your HAMMS name"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "Low Spec",
+          "version": "0.3.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.3.0/brick-workshop-lite-0.3.0.zip",
+          "sha256": "104cb476dfc78998de5a43651d07d63259180f70d4c87341729b66481a4fbf15",
+          "size": 261909835,
+          "executable": "BrickWorkshop.exe",
+          "launchArgs": [],
+          "released": "2026-10-15",
+          "patchNotes": [
+            {
+              "version": "0.3.0",
+              "date": "2026-10-15",
+              "changes": [
+                "Low Spec build for older PCs and laptops",
                 "Signs in with your HAMMS account and fills in your HAMMS name"
               ]
             }
