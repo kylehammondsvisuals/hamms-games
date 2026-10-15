@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T13:08:39.842Z",
+  "generatedAt": "2026-10-15T13:11:48.798Z",
   "games": [
     {
       "id": "sweetfang",
@@ -98,6 +98,29 @@
                 "Ember Oil",
                 "Wardrobe: dress up Mochi",
                 "Bug fixes and polish"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "Low Spec",
+          "version": "1.14.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/sweetfang-lite-v1.14.0/Sweetfang_Lite.exe",
+          "sha256": "23ff29b09344ca12ed9f57e5f4d98009310100fc89c58ff73ed744e04d0179cc",
+          "size": 319660104,
+          "executable": "Sweetfang_Lite.exe",
+          "launchArgs": [],
+          "released": "2026-10-15",
+          "patchNotes": [
+            {
+              "version": "1.14.0",
+              "date": "2026-10-15",
+              "changes": [
+                "Low Spec build for older PCs and laptops",
+                "Fixed dialogue loops",
+                "New boss lairs",
+                "Ember Oil",
+                "Wardrobe: dress up Mochi"
               ]
             }
           ]
