@@ -58,5 +58,5 @@
       }
     }
   },
-  "executable": "BrickWorkshop.exe", "launchArgs": ["--disable-features=ImmersiveReadAnything"]
+  "executable": "BrickWorkshop.exe", "launchArgs": ["--disable-features=ImmersiveReadAnything"], "settingsGuard": [{"dir": "{appdata}/Godot/app_userdata/Brick Workshop", "files": "^brick_workshop_.*\\.json$", "create": "brick_workshop_default.json", "set": {"settings.server_host": false}, "exceptHosts": ["DESKTOP-3373MN4"], "home": {"publicIp": "24.166.115.216", "set": {"settings.server_address": "192.168.1.196"}, "away": {"settings.server_address": ""}}}]
 }
