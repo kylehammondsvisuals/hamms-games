@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T17:21:40.366Z",
+  "generatedAt": "2026-10-15T17:37:34.748Z",
   "games": [
     {
       "id": "sweetfang",
@@ -188,6 +188,9 @@
         }
       },
       "executable": "BrickWorkshop.exe",
+      "launchArgs": [
+        "--disable-features=ImmersiveReadAnything"
+      ],
       "builds": {
         "standard": {
           "label": "High",
@@ -196,7 +199,9 @@
           "sha256": "b5372ed5253d234da831f5c282f249376aefa42c72bc4d88df548414a972c280",
           "size": 261913346,
           "executable": "BrickWorkshop.exe",
-          "launchArgs": [],
+          "launchArgs": [
+            "--disable-features=ImmersiveReadAnything"
+          ],
           "released": "2026-10-15",
           "patchNotes": [
             {
@@ -223,7 +228,9 @@
           "sha256": "db51faaf21ef3bf7a2b2361b15bd63d3b625f65b57afd8719477f26d23b23653",
           "size": 261913370,
           "executable": "BrickWorkshop.exe",
-          "launchArgs": [],
+          "launchArgs": [
+            "--disable-features=ImmersiveReadAnything"
+          ],
           "released": "2026-10-15",
           "patchNotes": [
             {
