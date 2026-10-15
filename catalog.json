@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T13:00:59.631Z",
+  "generatedAt": "2026-10-15T13:04:01.266Z",
   "games": [
     {
       "id": "sweetfang",
@@ -189,7 +189,7 @@
       "title": "Glint",
       "publisher": "Pineapple Blue Productions",
       "partner": false,
-      "status": "coming-soon",
+      "status": "released",
       "featured": true,
       "order": 3,
       "type": "download",
@@ -254,7 +254,28 @@
         "--rendering-method",
         "gl_compatibility"
       ],
-      "builds": {}
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "1.0.1",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/glint-v1.0.1/glint-1.0.1.zip",
+          "sha256": "a58a9c9e8f6a3f7a42dc34f69971e1d8e234b9be25156fb175f647eac9d28969",
+          "size": 69711461,
+          "executable": "GLINT.exe",
+          "launchArgs": [],
+          "released": "2026-10-15",
+          "patchNotes": [
+            {
+              "version": "1.0.1",
+              "date": "2026-10-15",
+              "changes": [
+                "Glint rebuilt in Godot as a full download",
+                "1v1 third-person sniper duels"
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "off-the-books",
