@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T13:04:22.836Z",
+  "generatedAt": "2026-10-15T13:05:16.154Z",
   "games": [
     {
       "id": "sweetfang",
@@ -270,6 +270,31 @@
               "date": "2026-10-15",
               "changes": [
                 "Glint rebuilt in Godot as a full download",
+                "1v1 third-person sniper duels"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "Low Spec",
+          "version": "1.0.1",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/glint-lite-v1.0.1/glint-lite-1.0.1.zip",
+          "sha256": "ad2ca5b14668874f3eb418d89621d09bf59c8bc96f8fab8540a47e07b0853266",
+          "size": 69711479,
+          "executable": "GLINT.exe",
+          "launchArgs": [
+            "--rendering-driver",
+            "opengl3",
+            "--rendering-method",
+            "gl_compatibility"
+          ],
+          "released": "2026-10-15",
+          "patchNotes": [
+            {
+              "version": "1.0.1",
+              "date": "2026-10-15",
+              "changes": [
+                "Low Spec build for older PCs and laptops",
                 "1v1 third-person sniper duels"
               ]
             }
