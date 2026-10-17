@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-15T21:15:52.322Z",
+  "generatedAt": "2026-10-17T04:18:18.218Z",
   "games": [
     {
       "id": "sweetfang",
@@ -189,7 +189,7 @@
       },
       "executable": "BrickWorkshop.exe",
       "launchArgs": [
-        "--disable-features=ImmersiveReadAnything"
+        "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
       ],
       "settingsGuard": [
         {
@@ -222,7 +222,7 @@
           "size": 261913346,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
-            "--disable-features=ImmersiveReadAnything"
+            "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-15",
           "patchNotes": [
@@ -251,7 +251,7 @@
           "size": 261913370,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
-            "--disable-features=ImmersiveReadAnything"
+            "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-15",
           "patchNotes": [
