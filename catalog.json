@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-17T04:29:07.168Z",
+  "generatedAt": "2026-10-17T11:37:13.728Z",
   "games": [
     {
       "id": "sweetfang",
@@ -216,16 +216,32 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.3.2",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.3.2/brick-workshop-0.3.2.zip",
-          "sha256": "9eb5f438f7374c3bebe15f9c0a91cdc82cbead8e19b8c470b247e4ce72974b36",
-          "size": 262116120,
+          "version": "0.3.3",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.3.3/brick-workshop-0.3.3.zip",
+          "sha256": "1df562b61b750734c3bda0f23af6a0c6da3fa705510fcc32bd00cdde4d92878a",
+          "size": 262154979,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-17",
           "patchNotes": [
+            {
+              "version": "0.3.3",
+              "date": "2026-10-17",
+              "changes": [
+                "Each HAMMS account now has its own builder and progress",
+                "Menus work fully with a controller; PlayStation shows X",
+                "Big Screen sound setting: same volume everywhere, or from the TV",
+                "Photo mode: softer selfie flash, camera held the right way, new tripod + remote",
+                "Murals gallery: keep and reload your murals",
+                "Save & Quit a build and resume it later",
+                "My Sets: save a Free Build as your own set and send it to friends",
+                "Send photos to friends",
+                "Y / Triangle opens the instructions (Double Carry removed)",
+                "Fixed the studio sign covering the windows, and a better mirror"
+              ]
+            },
             {
               "version": "0.3.2",
               "date": "2026-10-17",
