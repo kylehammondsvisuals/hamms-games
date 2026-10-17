@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-17T11:37:13.728Z",
+  "generatedAt": "2026-10-17T11:41:04.705Z",
   "games": [
     {
       "id": "sweetfang",
@@ -271,16 +271,32 @@
         },
         "lite": {
           "label": "Low Spec",
-          "version": "0.3.1",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.3.1/brick-workshop-lite-0.3.1.zip",
-          "sha256": "db51faaf21ef3bf7a2b2361b15bd63d3b625f65b57afd8719477f26d23b23653",
-          "size": 261913370,
+          "version": "0.3.3",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.3.3/brick-workshop-lite-0.3.3.zip",
+          "sha256": "3e407aae1dd2b482c33a97931b74a37db0e930d0cb2485cd8b8de3bcd5891c4f",
+          "size": 262154996,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
-          "released": "2026-10-15",
+          "released": "2026-10-17",
           "patchNotes": [
+            {
+              "version": "0.3.3",
+              "date": "2026-10-17",
+              "changes": [
+                "Each HAMMS account now has its own builder and progress",
+                "Menus work fully with a controller; PlayStation shows X",
+                "Big Screen sound setting: same volume everywhere, or from the TV",
+                "Photo mode: softer selfie flash, camera held the right way, new tripod + remote",
+                "Murals gallery: keep and reload your murals",
+                "Save & Quit a build and resume it later",
+                "My Sets: save a Free Build as your own set and send it to friends",
+                "Send photos to friends",
+                "Y / Triangle opens the instructions (Double Carry removed)",
+                "Fixed the studio sign covering the windows, and a better mirror"
+              ]
+            },
             {
               "version": "0.3.1",
               "date": "2026-10-15",
