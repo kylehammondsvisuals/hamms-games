@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T08:19:29.907Z",
+  "generatedAt": "2026-10-18T08:59:39.321Z",
   "games": [
     {
       "id": "sweetfang",
@@ -216,16 +216,23 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.4.2",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.2/brick-workshop-0.4.2.zip",
-          "sha256": "d81aa5ef3ffbf753146b40b45e87cc394750fcdd6251e496a049fd158e08b3a6",
-          "size": 297602160,
+          "version": "0.4.3",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.3/brick-workshop-0.4.3.zip",
+          "sha256": "dd4398d0ed1520da17514795fe135220fa42117581532c0b202c8fe835bca827",
+          "size": 297632291,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-18",
           "patchNotes": [
+            {
+              "version": "0.4.3",
+              "date": "2026-10-18",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.4.2",
               "date": "2026-10-18",
@@ -299,13 +306,6 @@
                 "Big Screen: YouTube no longer crashes the game",
                 "Big Screen: click a video and it plays straight on the TV, keeps playing when you walk away",
                 "Big Screen: full controller support for browsing and searching YouTube"
-              ]
-            },
-            {
-              "version": "0.3.1",
-              "date": "2026-10-15",
-              "changes": [
-                "Bug fixes and improvements"
               ]
             }
           ]
