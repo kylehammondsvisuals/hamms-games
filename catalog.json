@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T16:04:53.839Z",
+  "generatedAt": "2026-10-18T19:35:59.485Z",
   "games": [
     {
       "id": "sweetfang",
@@ -850,6 +850,71 @@
         }
       },
       "playUrl": "",
+      "builds": {}
+    },
+    {
+      "id": "parchis-party",
+      "title": "Parchís Party",
+      "publisher": "HAMMS Studios",
+      "partner": false,
+      "status": "coming-soon",
+      "featured": false,
+      "order": 9,
+      "type": "download",
+      "tagline": "Roll, race and capture your way home.",
+      "description": "The classic Parchís board game with a cast of characters instead of plain pieces. Pick a Knight, Wizard, Pirate, Robot, Ninja, Cat, Viking or Chef, roll the dice and hop your team around the board. Capture rivals, build blockades and race all four of your characters into the goal first.",
+      "features": [
+        "Classic Parchís rules: captures, safe squares, blockades and bonus moves",
+        "8 characters, each with its own attack sound",
+        "2 to 4 players on one PC, or with friends over Parsec",
+        "Full controller support, or mouse and keyboard"
+      ],
+      "genres": [
+        "Board Game",
+        "Party",
+        "Family"
+      ],
+      "engine": "Godot 4",
+      "players": "2-4 players (same PC)",
+      "media": {
+        "cover": "games/parchis-party/cover.jpg",
+        "banner": "games/parchis-party/banner.jpg",
+        "logo": "games/parchis-party/logo.png",
+        "screenshots": [
+          "games/parchis-party/banner.jpg",
+          "games/parchis-party/screenshot-1.jpg",
+          "games/parchis-party/screenshot-3.jpg",
+          "games/parchis-party/screenshot-2.jpg"
+        ],
+        "trailer": ""
+      },
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit",
+          "cpu": "Any dual-core CPU",
+          "ram": "2 GB",
+          "gpu": "Any integrated graphics (OpenGL 3.3)",
+          "storage": "200 MB",
+          "check": {
+            "ramGB": 2,
+            "cores": 2,
+            "dedicatedGPU": false
+          }
+        },
+        "recommended": {
+          "os": "Windows 10/11 64-bit",
+          "cpu": "Intel Core i3 / AMD Ryzen 3",
+          "ram": "4 GB",
+          "gpu": "Any integrated graphics",
+          "storage": "200 MB",
+          "check": {
+            "ramGB": 4,
+            "cores": 2,
+            "dedicatedGPU": false
+          }
+        }
+      },
+      "executable": "ParchisParty.exe",
       "builds": {}
     }
   ]
