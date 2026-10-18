@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T05:15:02.023Z",
+  "generatedAt": "2026-10-18T07:28:44.714Z",
   "games": [
     {
       "id": "sweetfang",
@@ -216,16 +216,23 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.4.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.0/brick-workshop-0.4.0.zip",
-          "sha256": "30e5e5979f591b0df3eedef0a6ac3d98670534d26feebe34e03396c109966b96",
-          "size": 297590622,
+          "version": "0.4.1",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.1/brick-workshop-0.4.1.zip",
+          "sha256": "dd6ddf3780fb0ac2ab7906e801071a7225f7a8f670fea61ea49813ff235c5369",
+          "size": 297593546,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-18",
           "patchNotes": [
+            {
+              "version": "0.4.1",
+              "date": "2026-10-18",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.4.0",
               "date": "2026-10-18",
@@ -306,16 +313,23 @@
         },
         "lite": {
           "label": "Low Spec",
-          "version": "0.4.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.4.0/brick-workshop-lite-0.4.0.zip",
-          "sha256": "a46d459c09b1a2bc9657a3e1c3e80f403997520acd9bb9e28bd2ba1f1aee7507",
-          "size": 297590632,
+          "version": "0.4.1",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.4.1/brick-workshop-lite-0.4.1.zip",
+          "sha256": "d211a646b53fcefa7244e45812ad3b38a9bdcf83bd2c7fff6d8b54624e099b0e",
+          "size": 297593563,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-18",
           "patchNotes": [
+            {
+              "version": "0.4.1",
+              "date": "2026-10-18",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.4.0",
               "date": "2026-10-18",
