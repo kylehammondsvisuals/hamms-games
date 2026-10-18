@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T21:22:53.662Z",
+  "generatedAt": "2026-10-18T21:39:31.596Z",
   "games": [
     {
       "id": "sweetfang",
@@ -217,9 +217,9 @@
         "standard": {
           "label": "High",
           "version": "0.4.9",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.9/BrickWorkshop.zip",
-          "sha256": "fd49f08d51e39a34f38b78c94e50de4062b736c7615e4c16062585dcd00ecc39",
-          "size": 658139255,
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.4.9/BrickWorkshop-0.4.9.zip",
+          "sha256": "44d73ea8721d517efea3c4eb95e7725d4d20201c3ad8715b6c34d28e2dadfc42",
+          "size": 296492371,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
