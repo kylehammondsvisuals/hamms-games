@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T14:49:55.133Z",
+  "generatedAt": "2026-10-18T14:50:26.039Z",
   "games": [
     {
       "id": "sweetfang",
@@ -300,16 +300,23 @@
         },
         "lite": {
           "label": "Low Spec",
-          "version": "0.4.4",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.4.4/brick-workshop-lite-0.4.4.zip",
-          "sha256": "292828f68caf1f4a094441367b8c98f688e09dc7fa829d841944b60903037a38",
-          "size": 297633913,
+          "version": "0.4.5",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.4.5/brick-workshop-lite-0.4.5.zip",
+          "sha256": "1430006b21dee96c475f40a3f863f682ce7d1fbfbce63d52b8e6c4883769c96b",
+          "size": 297634125,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-18",
           "patchNotes": [
+            {
+              "version": "0.4.5",
+              "date": "2026-10-18",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.4.4",
               "date": "2026-10-18",
@@ -371,22 +378,6 @@
               "date": "2026-10-17",
               "changes": [
                 "Bug fixes and improvements"
-              ]
-            },
-            {
-              "version": "0.3.3",
-              "date": "2026-10-17",
-              "changes": [
-                "Each HAMMS account now has its own builder and progress",
-                "Menus work fully with a controller; PlayStation shows X",
-                "Big Screen sound setting: same volume everywhere, or from the TV",
-                "Photo mode: softer selfie flash, camera held the right way, new tripod + remote",
-                "Murals gallery: keep and reload your murals",
-                "Save & Quit a build and resume it later",
-                "My Sets: save a Free Build as your own set and send it to friends",
-                "Send photos to friends",
-                "Y / Triangle opens the instructions (Double Carry removed)",
-                "Fixed the studio sign covering the windows, and a better mirror"
               ]
             }
           ]
