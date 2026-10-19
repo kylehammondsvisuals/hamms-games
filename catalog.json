@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-19T14:54:02.534Z",
+  "generatedAt": "2026-10-19T15:11:41.421Z",
   "games": [
     {
       "id": "sweetfang",
@@ -894,7 +894,7 @@
           "cpu": "Any dual-core CPU",
           "ram": "2 GB",
           "gpu": "Any integrated graphics (OpenGL 3.3)",
-          "storage": "200 MB",
+          "storage": "400 MB",
           "check": {
             "ramGB": 2,
             "cores": 2,
@@ -906,7 +906,7 @@
           "cpu": "Intel Core i3 / AMD Ryzen 3",
           "ram": "4 GB",
           "gpu": "Any integrated graphics",
-          "storage": "200 MB",
+          "storage": "400 MB",
           "check": {
             "ramGB": 4,
             "cores": 2,
