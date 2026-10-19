@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-18T21:50:19.881Z",
+  "generatedAt": "2026-10-19T14:41:17.565Z",
   "games": [
     {
       "id": "sweetfang",
@@ -854,18 +854,18 @@
     },
     {
       "id": "parchis-party",
-      "title": "Parchís Party",
+      "title": "Parchís: Legends of the Board",
       "publisher": "HAMMS Studios",
       "partner": false,
       "status": "released",
       "featured": false,
       "order": 9,
       "type": "download",
-      "tagline": "Roll, race and capture your way home.",
-      "description": "The classic Parchís board game with a cast of characters instead of plain pieces. Pick a Knight, Wizard, Pirate, Robot, Ninja, Cat, Viking or Chef, roll the dice and hop your team around the board. Capture rivals, build blockades and race all four of your characters into the goal first.",
+      "tagline": "Eight legends. One board. Only one makes it home.",
+      "description": "The classic Parchís board game, retold as an epic clash of legends. Lead a Knight, Wizard, Pirate, Robot, Ninja, Cat, Viking or Chef across a sunset kingdom: roll the dice, capture rivals with cinematic finishing moves, build blockades and race all four of your heroes home first.",
       "features": [
         "Classic two-dice Parchís: captures, safe squares, blockades, doubles and bonus moves",
-        "8 characters, each with its own finishing move and 3D victory dance",
+        "8 detailed 3D heroes, each with a finishing move, victory dance and finishing pose",
         "2 to 4 players on one PC, or with friends over Parsec",
         "Full controller support, or mouse and keyboard"
       ],
