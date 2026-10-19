@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-19T16:44:29.737Z",
+  "generatedAt": "2026-10-19T19:40:24.428Z",
   "games": [
     {
       "id": "sweetfang",
@@ -865,11 +865,13 @@
       "description": "The classic Parchís board game, retold as an epic clash of legends. Lead a Knight, Wizard, Pirate, Robot, Ninja, Cat, Viking or Chef across a sunset kingdom: roll the dice, capture rivals with cinematic finishing moves, build blockades and race all four of your heroes home first.",
       "features": [
         "Classic two-dice Parchís: captures, safe squares, blockades, doubles and bonus moves",
-        "8 detailed 3D heroes with their own entrances, laughs, cheers and themed dice",
-        "Cinematic 3D finishing moves with explosions, lightning, slow motion and K.O.s",
-        "Champion podium in each hero's own world, with sore losers",
-        "Play with 2-4 friends on one PC or over Parsec, or fill a seat with the computer",
-        "Full controller support, or mouse and keyboard"
+        "8 detailed 3D heroes, each with their own idle, entrance, ride across the board (horse, smoke cloud, jet pack, frying pan...) and sounds",
+        "Real 3D dice that tumble onto the board, then zoom in on the numbers",
+        "Cinematic 3D finishing moves: frog hexes, cannon volleys, chest lasers, claw flurries, thunder axes",
+        "Play online with friends, or 2-4 players on one PC, with optional computer players",
+        "Everyone picks their hero at once, with full controller support and an on-screen keyboard",
+        "Living home corners: a pirate ship, dojo, castle hall, wizard tower, cat house and more",
+        "Champion podium in each hero's own world, with sore losers"
       ],
       "genres": [
         "Board Game",
@@ -877,7 +879,7 @@
         "Family"
       ],
       "engine": "Godot 4",
-      "players": "2-4 players (same PC)",
+      "players": "2-4 players (same PC or online)",
       "media": {
         "cover": "games/parchis-party/cover.jpg",
         "banner": "games/parchis-party/banner.jpg",
