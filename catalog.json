@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-19T15:11:41.421Z",
+  "generatedAt": "2026-10-19T16:32:20.754Z",
   "games": [
     {
       "id": "sweetfang",
@@ -865,8 +865,10 @@
       "description": "The classic Parchís board game, retold as an epic clash of legends. Lead a Knight, Wizard, Pirate, Robot, Ninja, Cat, Viking or Chef across a sunset kingdom: roll the dice, capture rivals with cinematic finishing moves, build blockades and race all four of your heroes home first.",
       "features": [
         "Classic two-dice Parchís: captures, safe squares, blockades, doubles and bonus moves",
-        "8 detailed 3D heroes, each with a finishing move, victory dance and finishing pose",
-        "2 to 4 players on one PC, or with friends over Parsec",
+        "8 detailed 3D heroes with their own entrances, laughs, cheers and themed dice",
+        "Cinematic 3D finishing moves with explosions, lightning, slow motion and K.O.s",
+        "Champion podium in each hero's own world, with sore losers",
+        "Play with 2-4 friends on one PC or over Parsec, or fill a seat with the computer",
         "Full controller support, or mouse and keyboard"
       ],
       "genres": [
