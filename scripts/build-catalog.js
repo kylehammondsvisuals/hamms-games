@@ -88,7 +88,14 @@ function readGames(dir, partner) {
         if (!m) continue;
         const [, id, lite, version] = m;
         // A build is either a .zip of the export folder or a single .exe (Godot with embedded .pck).
-        const zip = (r.assets || []).find((a) => /\.(zip|exe)$/i.test(a.name));
+        // If other files got attached too (model zips, sounds...), prefer the one named after the
+        // game's .exe (ParchisParty-1.2.0.zip for ParchisParty.exe), then the biggest one.
+        const builds = (r.assets || []).filter((a) => /\.(zip|exe)$/i.test(a.name));
+        const game = games.find((g) => g.id.toLowerCase() === id.toLowerCase());
+        const base = game && game.executable ? game.executable.replace(/\.exe$/i, '').toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+        const named = (a) => !!base && a.name.toLowerCase().replace(/[^a-z0-9]/g, '').includes(base);
+        builds.sort((a, b) => (named(b) - named(a)) || (b.size - a.size));
+        const zip = builds[0];
         if (!zip) { console.warn(`! ${r.tag_name} has no .zip or .exe attached, skipping`); continue; }
         const key = `${id.toLowerCase()}|${lite ? 'lite' : 'standard'}`;
         if (!latest[key] || cmp(version, latest[key].version) > 0) {
