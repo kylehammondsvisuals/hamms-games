@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-19T22:36:27.095Z",
+  "generatedAt": "2026-10-20T00:21:57.520Z",
   "games": [
     {
       "id": "sweetfang",
@@ -922,14 +922,21 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.3.1",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/parchis-party-v1.3.1/ParchisParty-1.3.1.zip",
-          "sha256": "2cbf85f58f048153fe7aee6528e9283e2e2c41873ad291270663ceaae47c8ceb",
-          "size": 124277167,
+          "version": "1.3.11",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/parchis-party-v1.3.11/ParchisParty-1.3.11.zip",
+          "sha256": "9b4edff4c286966c6021887db6e8f3a44486022b3344a40fed7543ea89e9539a",
+          "size": 144160227,
           "executable": "ParchisParty.exe",
           "launchArgs": [],
-          "released": "2026-10-19",
+          "released": "2026-10-20",
           "patchNotes": [
+            {
+              "version": "1.3.11",
+              "date": "2026-10-20",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "1.3.1",
               "date": "2026-10-19",
