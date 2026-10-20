@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-20T02:02:38.627Z",
+  "generatedAt": "2026-10-20T02:14:24.437Z",
   "games": [
     {
       "id": "sweetfang",
@@ -868,7 +868,7 @@
         "8 detailed 3D heroes, each with their own idle, entrance, ride across the board (horse, smoke cloud, jet pack, frying pan...) and sounds",
         "Real 3D dice that tumble onto the board, then zoom in on the numbers",
         "Cinematic 3D finishing moves: frog hexes, cannon volleys, chest lasers, claw flurries, thunder axes",
-        "Play online with friends, or 2-4 players on one PC, with optional computer players",
+        "Play online: see who's online, add friends, send invites and start together, or play 2-4 on one PC with optional computer players",
         "Everyone picks their hero at once, with full controller support and an on-screen keyboard",
         "Living home corners: a pirate ship, dojo, castle hall, wizard tower, cat house and more",
         "Champion podium in each hero's own world, with sore losers"
