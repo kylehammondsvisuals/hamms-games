@@ -7,19 +7,20 @@
   "featured": false,
   "order": 10,
   "type": "download",
-  "tagline": "The red moon is rising.",
-  "description": "Years after a secret experiment at Area 51 went wrong, Tijuana stands empty. Search abandoned houses and shops for supplies and the notes families left behind, and survive the fast, vampire-like infected that hunt when the red moon rises.",
+  "tagline": "Survive the red moon.",
+  "description": "A third-person survival horror shooter set in abandoned Tijuana. Explore enterable houses and rooftops, scavenge ammo and med kits, and fight fast, vampire-like infected with your pistol, rifle and machete. Rest at campfires to save and level up, and survive the nights when the red moon rises and the Alpha hunts.",
   "features": [
-    "Explore abandoned Tijuana and enter its houses and shops",
-    "Day and night cycle with Red Eclipse nights and sandstorms",
-    "Fast infected, dog packs, Climbers, the Revived and the Alpha boss",
-    "Level up and choose new upgrades as you survive",
-    "Play on keyboard and mouse or Xbox and PlayStation controllers"
+    "Third-person shooting with over-the-shoulder aim, plus machete combos and finishers",
+    "Souls-style dodge roll, stamina, lock-on and campfire checkpoints",
+    "Climb walls and run across the rooftops of a 3D Tijuana",
+    "Day and night cycle: few infected by day, fast hunters under the red moon",
+    "Full controller support (Xbox and PlayStation) and keyboard + mouse",
+    "Original Thriller-style funk-horror soundtrack"
   ],
   "genres": [
     "Survival Horror",
-    "Shooter",
-    "Action"
+    "Action",
+    "Shooter"
   ],
   "engine": "Godot 4",
   "players": "1 player",
@@ -37,26 +38,26 @@
   "requirements": {
     "minimum": {
       "os": "Windows 10 64-bit",
-      "cpu": "Any dual-core",
-      "ram": "4 GB",
-      "gpu": "Any integrated graphics with OpenGL 3.3",
-      "storage": "200 MB",
+      "cpu": "Intel Core i5 (4 cores) / AMD Ryzen 3",
+      "ram": "8 GB",
+      "gpu": "GTX 960 / RX 470 / Intel Iris Xe (Vulkan)",
+      "storage": "1 GB",
       "check": {
-        "ramGB": 4,
-        "cores": 2,
+        "ramGB": 8,
+        "cores": 4,
         "dedicatedGPU": false
       }
     },
     "recommended": {
       "os": "Windows 10/11 64-bit",
-      "cpu": "Any quad-core",
-      "ram": "8 GB",
-      "gpu": "Any integrated graphics with OpenGL 3.3",
-      "storage": "200 MB",
+      "cpu": "Intel Core i5 / AMD Ryzen 5",
+      "ram": "16 GB",
+      "gpu": "GTX 1660 / RX 5600 or better",
+      "storage": "1 GB",
       "check": {
-        "ramGB": 8,
-        "cores": 4,
-        "dedicatedGPU": false
+        "ramGB": 16,
+        "cores": 6,
+        "dedicatedGPU": true
       }
     }
   },
