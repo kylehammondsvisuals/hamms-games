@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-21T23:41:11.580Z",
+  "generatedAt": "2026-10-21T23:43:50.967Z",
   "games": [
     {
       "id": "sweetfang",
@@ -1048,14 +1048,21 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.0.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.0.0/Zone51-1.0.0.zip",
-          "sha256": "00af9c96b8f7a656a5a8c486fdbed6e8485c9565e99cc564910a9ba63b81b621",
-          "size": 31091212,
+          "version": "1.1.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.1.0/Zone51-1.1.0.zip",
+          "sha256": "be843fde523119e9778b2a0e8b802ae993d18fb88b7d80fcad860dfb913ae651",
+          "size": 198067825,
           "executable": "Zone51.exe",
           "launchArgs": [],
           "released": "2026-10-21",
           "patchNotes": [
+            {
+              "version": "1.1.0",
+              "date": "2026-10-21",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "1.0.0",
               "date": "2026-10-21",
@@ -1067,14 +1074,21 @@
         },
         "lite": {
           "label": "High",
-          "version": "1.0.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.0.0/Zone51-1.0.0.zip",
-          "sha256": "00af9c96b8f7a656a5a8c486fdbed6e8485c9565e99cc564910a9ba63b81b621",
-          "size": 31091212,
+          "version": "1.1.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.1.0/Zone51-1.1.0.zip",
+          "sha256": "be843fde523119e9778b2a0e8b802ae993d18fb88b7d80fcad860dfb913ae651",
+          "size": 198067825,
           "executable": "Zone51.exe",
           "launchArgs": [],
           "released": "2026-10-21",
           "patchNotes": [
+            {
+              "version": "1.1.0",
+              "date": "2026-10-21",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "1.0.0",
               "date": "2026-10-21",
