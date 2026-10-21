@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-20T23:29:18.135Z",
+  "generatedAt": "2026-10-21T00:11:16.412Z",
   "games": [
     {
       "id": "sweetfang",
@@ -187,6 +187,7 @@
           }
         }
       },
+      "singleBuild": true,
       "executable": "BrickWorkshop.exe",
       "launchArgs": [
         "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
@@ -288,11 +289,11 @@
           ]
         },
         "lite": {
-          "label": "Low Spec",
+          "label": "High",
           "version": "0.6.5",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-lite-v0.6.5/BrickWorkshop-Lite-0.6.5.zip",
-          "sha256": "774b798566cf3181301227068ef72569d599c9502990c847a037f8d0be9e9dbc",
-          "size": 466181133,
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.6.5/BrickWorkshop-0.6.5.zip",
+          "sha256": "7a3bd83fde0e21db1f629b63f9b815d25f6dab8594a2fa6cb032f686c27b0e56",
+          "size": 466181061,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
