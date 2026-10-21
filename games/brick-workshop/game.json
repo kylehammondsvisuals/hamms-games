@@ -58,6 +58,7 @@
       }
     }
   },
+  "singleBuild": true,
   "executable": "BrickWorkshop.exe",
   "launchArgs": [
     "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"

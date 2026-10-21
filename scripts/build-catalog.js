@@ -130,6 +130,12 @@ function readGames(dir, partner) {
         patchNotes: [{ version: rel.version, date: rel.date, changes: rel.notes.length ? rel.notes : ['Bug fixes and improvements'] }],
       };
     }
+    // "singleBuild": the game ships one build for everyone (no Low Spec). Anyone who had the
+    // Low Spec build installed is moved onto the standard one, so all players stay on the
+    // same version for online play.
+    if (g.singleBuild && g.builds.standard) {
+      g.builds.lite = { ...g.builds.standard, label: 'High' };
+    }
     // carry older patch notes forward so players see history
     const old = (previous.games || []).find((p) => p.id === g.id);
     for (const [bid, b] of Object.entries(g.builds)) {
