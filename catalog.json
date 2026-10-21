@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-21T22:11:41.558Z",
+  "generatedAt": "2026-10-21T22:15:05.419Z",
   "games": [
     {
       "id": "sweetfang",
@@ -985,7 +985,7 @@
       "title": "Zone 51: Virus Nocturnus",
       "publisher": "HAMMS Studios",
       "partner": false,
-      "status": "coming-soon",
+      "status": "released",
       "featured": false,
       "order": 10,
       "type": "download",
@@ -1044,7 +1044,46 @@
       },
       "singleBuild": true,
       "executable": "Zone51.exe",
-      "builds": {}
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "1.0.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.0.0/Zone51-1.0.0.zip",
+          "sha256": "00af9c96b8f7a656a5a8c486fdbed6e8485c9565e99cc564910a9ba63b81b621",
+          "size": 31091212,
+          "executable": "Zone51.exe",
+          "launchArgs": [],
+          "released": "2026-10-21",
+          "patchNotes": [
+            {
+              "version": "1.0.0",
+              "date": "2026-10-21",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "High",
+          "version": "1.0.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/zone-51-v1.0.0/Zone51-1.0.0.zip",
+          "sha256": "00af9c96b8f7a656a5a8c486fdbed6e8485c9565e99cc564910a9ba63b81b621",
+          "size": 31091212,
+          "executable": "Zone51.exe",
+          "launchArgs": [],
+          "released": "2026-10-21",
+          "patchNotes": [
+            {
+              "version": "1.0.0",
+              "date": "2026-10-21",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            }
+          ]
+        }
+      }
     }
   ]
 }
