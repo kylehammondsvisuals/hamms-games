@@ -6,7 +6,7 @@
   "status": "coming-soon",
   "featured": false,
   "order": 10,
-  "type": "web",
+  "type": "download",
   "tagline": "The red moon is rising.",
   "description": "Years after a secret experiment at Area 51 went wrong, Tijuana stands empty. Search abandoned houses and shops for supplies and the notes families left behind, and survive the fast, vampire-like infected that hunt when the red moon rises.",
   "features": [
@@ -14,14 +14,14 @@
     "Day and night cycle with Red Eclipse nights and sandstorms",
     "Fast infected, dog packs, Climbers, the Revived and the Alpha boss",
     "Level up and choose new upgrades as you survive",
-    "Play on keyboard and mouse or touch"
+    "Play on keyboard and mouse or Xbox and PlayStation controllers"
   ],
   "genres": [
     "Survival Horror",
     "Shooter",
     "Action"
   ],
-  "engine": "Browser",
+  "engine": "Godot 4",
   "players": "1 player",
   "media": {
     "cover": "cover.jpg",
@@ -36,11 +36,11 @@
   },
   "requirements": {
     "minimum": {
-      "os": "Windows 10",
+      "os": "Windows 10 64-bit",
       "cpu": "Any dual-core",
       "ram": "4 GB",
-      "gpu": "Any integrated graphics",
-      "storage": "None (plays online)",
+      "gpu": "Any integrated graphics with OpenGL 3.3",
+      "storage": "200 MB",
       "check": {
         "ramGB": 4,
         "cores": 2,
@@ -48,11 +48,11 @@
       }
     },
     "recommended": {
-      "os": "Windows 10/11",
+      "os": "Windows 10/11 64-bit",
       "cpu": "Any quad-core",
       "ram": "8 GB",
-      "gpu": "Any integrated graphics",
-      "storage": "None (plays online)",
+      "gpu": "Any integrated graphics with OpenGL 3.3",
+      "storage": "200 MB",
       "check": {
         "ramGB": 8,
         "cores": 4,
@@ -60,5 +60,6 @@
       }
     }
   },
-  "playUrl": "https://claude.ai/artifact/J3nE7pK1k5WfpJVnn4GMYG"
+  "singleBuild": true,
+  "executable": "Zone51.exe"
 }
