@@ -1,0 +1,76 @@
+#!/bin/bash
+# Zone 51: Virus Nocturnus co-op server: install or update, then (re)start.
+# Run on the server as root:  curl -fsSL https://raw.githubusercontent.com/kylehammondsvisuals/hamms-games/main/z51 | bash
+set -e
+PORT=24551
+DIR=/opt/zone51
+GODOT_URL=https://github.com/godotengine/godot/releases/download/4.5.1-stable/Godot_v4.5.1-stable_linux.x86_64.zip
+
+echo "== Zone 51 server setup =="
+export DEBIAN_FRONTEND=noninteractive
+command -v unzip >/dev/null && command -v curl >/dev/null && command -v python3 >/dev/null || { apt-get update -y -qq; apt-get install -y -qq unzip curl python3 >/dev/null; }
+id zone51 >/dev/null 2>&1 || useradd --system --home "$DIR" --shell /usr/sbin/nologin zone51
+mkdir -p "$DIR"
+cd "$DIR"
+
+# the game server needs about 1 GB of memory: add swap on small plans
+if [ "$(swapon --noheadings | wc -l)" = "0" ] && [ "$(free -m | awk '/Mem:/{print $2}')" -lt 3000 ]; then
+  echo "Adding 2 GB swap..."
+  fallocate -l 2G /swapfile && chmod 600 /swapfile && mkswap /swapfile >/dev/null && swapon /swapfile
+  grep -q '^/swapfile' /etc/fstab || echo '/swapfile none swap sw 0 0' >> /etc/fstab
+fi
+
+if [ ! -x "$DIR/godot" ]; then
+  echo "Downloading the Godot 4.5.1 runtime..."
+  curl -fsSL -o godot.zip "$GODOT_URL"
+  unzip -o -q godot.zip && rm godot.zip
+  mv -f Godot_v4.5.1-stable_linux.x86_64 godot && chmod +x godot
+fi
+
+echo "Finding the newest Zone 51 release..."
+ZIP_URL=$(curl -fsSL "https://api.github.com/repos/kylehammondsvisuals/hamms-games/releases?per_page=100" | python3 -c '
+import json,sys
+for r in json.load(sys.stdin):
+    if r["tag_name"].startswith("zone-51-v") and not r.get("draft"):
+        for a in r["assets"]:
+            if a["name"].endswith(".zip"):
+                print(a["browser_download_url"]); sys.exit(0)
+sys.exit(1)')
+echo "Downloading $ZIP_URL"
+curl -fsSL -o z51.zip "$ZIP_URL"
+unzip -o -q -j z51.zip '*Zone51.pck' -d "$DIR" && rm z51.zip
+chown -R zone51:zone51 "$DIR"
+
+cat > /etc/systemd/system/zone51.service <<EOF
+[Unit]
+Description=Zone 51 Virus Nocturnus co-op server
+After=network-online.target
+
+[Service]
+User=zone51
+WorkingDirectory=$DIR
+Environment=HOME=$DIR
+ExecStart=$DIR/godot --headless --main-pack $DIR/Zone51.pck -- --server --port $PORT
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl daemon-reload
+systemctl enable zone51 >/dev/null 2>&1
+systemctl restart zone51
+
+# open the game port (UDP)
+if command -v ufw >/dev/null && ufw status | grep -q "Status: active"; then ufw allow $PORT/udp >/dev/null; fi
+if command -v firewall-cmd >/dev/null; then firewall-cmd --permanent --add-port=$PORT/udp >/dev/null 2>&1 && firewall-cmd --reload >/dev/null 2>&1 || true; fi
+
+echo "Starting (building the city takes about 30 seconds)..."
+for i in $(seq 1 60); do
+  if journalctl -u zone51 --since "-2min" --no-pager 2>/dev/null | grep -q "world ready"; then
+    echo "DONE - Zone 51 server is running on UDP port $PORT"
+    exit 0
+  fi
+  sleep 2
+done
+echo "The server is still starting. Check it with:  journalctl -u zone51 -n 30"
