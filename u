@@ -1,0 +1,10 @@
+#!/bin/bash
+# Brick Net server update: pull the newest server build and restart (accounts are kept)
+set -e
+cd /opt/bricknet
+curl -fL -o new.pck https://raw.githubusercontent.com/kylehammondsvisuals/hamms-games/main/server/BrickWorkshopServer.pck
+mv new.pck BrickWorkshopServer.pck
+chown bricknet:bricknet BrickWorkshopServer.pck
+systemctl restart bricknet
+sleep 3
+systemctl is-active bricknet && echo "DONE - Brick Net server updated"
