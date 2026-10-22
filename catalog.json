@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-22T02:21:35.182Z",
+  "generatedAt": "2026-10-22T02:48:29.878Z",
   "games": [
     {
       "id": "sweetfang",
@@ -992,6 +992,7 @@
       "tagline": "Survive the red moon.",
       "description": "A third-person survival horror shooter set in abandoned Tijuana. Explore enterable houses and rooftops, scavenge ammo and med kits, and fight fast, vampire-like infected with your pistol, rifle and machete. Rest at campfires to save and level up, and survive the nights when the red moon rises and the Alpha hunts.",
       "features": [
+        "Online co-op: play the whole game with a friend (host on your PC or join the Hamms server)",
         "Third-person shooting with over-the-shoulder aim, plus machete combos and finishers",
         "Souls-style dodge roll, stamina, lock-on and campfire checkpoints",
         "Climb walls and run across the rooftops of a 3D Tijuana",
