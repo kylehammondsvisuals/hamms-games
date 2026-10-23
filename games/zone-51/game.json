@@ -63,5 +63,6 @@
     }
   },
   "singleBuild": true,
-  "executable": "Zone51.exe"
+  "executable": "Zone51.exe",
+  "hidden": true
 }

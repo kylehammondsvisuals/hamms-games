@@ -58,5 +58,6 @@
       }
     }
   },
-  "executable": "BattleVox.exe"
+  "executable": "BattleVox.exe",
+  "hidden": true
 }

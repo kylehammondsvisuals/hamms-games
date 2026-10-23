@@ -64,5 +64,6 @@
       }
     }
   },
-  "executable": "ParchisParty.exe"
+  "executable": "ParchisParty.exe",
+  "hidden": true
 }

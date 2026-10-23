@@ -67,5 +67,6 @@
     "opengl3",
     "--rendering-method",
     "gl_compatibility"
-  ]
+  ],
+  "hidden": true
 }

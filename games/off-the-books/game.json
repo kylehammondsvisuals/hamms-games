@@ -62,5 +62,6 @@
   "executable": "OffTheBooks.exe",
   "shaderCacheDirs": [
     "{appdata}/Godot/app_userdata/Off The Books/shader_cache"
-  ]
+  ],
+  "hidden": true
 }

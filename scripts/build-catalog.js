@@ -54,7 +54,9 @@ function notesFrom(body) {
 function readGames(dir, partner) {
   const base = path.join(ROOT, dir);
   if (!fs.existsSync(base)) return [];
-  return fs.readdirSync(base).filter((d) => fs.existsSync(path.join(base, d, 'game.json'))).map((d) => {
+  // "hidden": true in a game.json keeps the game (and its releases) but takes it off the store
+  return fs.readdirSync(base).filter((d) => fs.existsSync(path.join(base, d, 'game.json'))
+    && !JSON.parse(fs.readFileSync(path.join(base, d, 'game.json'), 'utf8')).hidden).map((d) => {
     const g = JSON.parse(fs.readFileSync(path.join(base, d, 'game.json'), 'utf8'));
     g.id = g.id || d;
     g.partner = partner || !!g.partner;
