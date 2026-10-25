@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-10-25T18:07:01.140Z",
+  "generatedAt": "2026-10-25T18:52:01.882Z",
   "games": [
     {
       "id": "sweetfang",
@@ -206,16 +206,23 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.6.43",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.6.43/BrickWorkshop_0.6.43.zip",
-          "sha256": "9bcc2ae8487ddc370ed381ea8892f8a6f4c9d594a760890c133ccaf7eda3efac",
-          "size": 1711415535,
+          "version": "0.6.44",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.6.44/BrickWorkshop_0.6.44.zip",
+          "sha256": "e305e0175363ba5f362468828b2e37fb600e91869adb96892654372c1a05a754",
+          "size": 1690420261,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-25",
           "patchNotes": [
+            {
+              "version": "0.6.44",
+              "date": "2026-10-25",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.6.43",
               "date": "2026-10-25",
@@ -275,13 +282,6 @@
             {
               "version": "0.6.31",
               "date": "2026-10-24",
-              "changes": [
-                "Bug fixes and improvements"
-              ]
-            },
-            {
-              "version": "0.6.30",
-              "date": "2026-10-23",
               "changes": [
                 "Bug fixes and improvements"
               ]
@@ -290,16 +290,23 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.6.43",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.6.43/BrickWorkshop_0.6.43.zip",
-          "sha256": "9bcc2ae8487ddc370ed381ea8892f8a6f4c9d594a760890c133ccaf7eda3efac",
-          "size": 1711415535,
+          "version": "0.6.44",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-v0.6.44/BrickWorkshop_0.6.44.zip",
+          "sha256": "e305e0175363ba5f362468828b2e37fb600e91869adb96892654372c1a05a754",
+          "size": 1690420261,
           "executable": "BrickWorkshop.exe",
           "launchArgs": [
             "--disable-features=ImmersiveReadAnything,ReadAnything,ReadAnythingOmniboxChip,ReadAnythingSidePanel,HardwareMediaKeyHandling,GlobalMediaControls,MediaRouter,Glic"
           ],
           "released": "2026-10-25",
           "patchNotes": [
+            {
+              "version": "0.6.44",
+              "date": "2026-10-25",
+              "changes": [
+                "Bug fixes and improvements"
+              ]
+            },
             {
               "version": "0.6.43",
               "date": "2026-10-25",
@@ -359,13 +366,6 @@
             {
               "version": "0.6.31",
               "date": "2026-10-24",
-              "changes": [
-                "Bug fixes and improvements"
-              ]
-            },
-            {
-              "version": "0.6.30",
-              "date": "2026-10-23",
               "changes": [
                 "Bug fixes and improvements"
               ]
