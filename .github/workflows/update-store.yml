@@ -66,7 +66,7 @@ jobs:
           HAVE=$(gh release view "$TAG" --json body -q .body | grep -o 'version [0-9.]*' | head -1 | cut -d' ' -f2)
           ASSET=$(gh release view "$TAG" --json assets -q '.assets[].name' | grep -c '^BrickWorkshop.zip$' || true)
           if [ "$HAVE" = "$VER" ] && [ "$ASSET" = "1" ]; then echo "already $VER"; exit 0; fi
-          curl -sSL --fail -o BrickWorkshop.zip "$URL"
+          curl -sSL --fail --retry 5 --retry-delay 20 --retry-all-errors -o BrickWorkshop.zip "$URL"
           gh release upload "$TAG" BrickWorkshop.zip --clobber
           gh release edit "$TAG" --notes "This download is always the newest Brick Workshop for PC (version $VER)."
           echo "permanent link now gives $VER"
