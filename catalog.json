@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T09:17:04.045Z",
+  "generatedAt": "2026-11-08T09:22:33.271Z",
   "games": [
     {
       "id": "sweetfang",
@@ -159,7 +159,9 @@
           "games/brick-workshop/screenshot-1.jpg",
           "games/brick-workshop/screenshot-2.jpg"
         ],
-        "trailer": ""
+        "trailer": "",
+        "logoInBanner": false,
+        "hero": "games/brick-workshop/hero.jpg"
       },
       "requirements": {
         "minimum": {
