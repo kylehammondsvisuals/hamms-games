@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T03:21:24.128Z",
+  "generatedAt": "2026-11-08T04:04:55.936Z",
   "games": [
     {
       "id": "sweetfang",
@@ -373,6 +373,73 @@
           ]
         }
       }
+    },
+    {
+      "id": "pivot",
+      "title": "PIVOT!",
+      "publisher": "HAMMS Studios",
+      "partner": false,
+      "status": "coming-soon",
+      "featured": true,
+      "order": 2,
+      "type": "download",
+      "tagline": "Lift with your legs. Name with your heart.",
+      "description": "Grandpa Gus left you his tiny moving company, one rusty truck and Earl, a large man who came with the business. Name your company, then haul couches, pianos, fish tanks and a whole lot of boxes before the clock runs out. Call the crew to lift the heavy stuff, keep the client's treasures in one piece, level up, buy bigger trucks, hire weirder movers and take on SwiftLift, the drone-powered moving app run by Chad.",
+      "features": [
+        "Name your own moving company and paint the sign",
+        "9 story jobs plus endless gigs, from a frat house to a haunted mansion",
+        "Hire a crew of 8 oddballs who haul, lift, snack and trip on their own",
+        "4 trucks, 4 offices, contracts and perks to level up",
+        "Play on keyboard and mouse, PlayStation or Xbox controller"
+      ],
+      "genres": [
+        "Comedy",
+        "Physics",
+        "Simulation"
+      ],
+      "engine": "Godot 4",
+      "players": "1 player + AI crew",
+      "media": {
+        "cover": "games/pivot/cover.jpg",
+        "banner": "games/pivot/banner.jpg",
+        "logo": "games/pivot/logo.png",
+        "logoInBanner": false,
+        "screenshots": [
+          "games/pivot/banner.jpg"
+        ],
+        "hero": "games/pivot/hero.jpg"
+      },
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit",
+          "cpu": "Intel Core i5 / AMD Ryzen 5",
+          "ram": "8 GB",
+          "gpu": "NVIDIA GTX 1050 / AMD RX 560",
+          "storage": "1 GB",
+          "check": {
+            "ramGB": 8,
+            "cores": 4,
+            "dedicatedGPU": true
+          }
+        },
+        "recommended": {
+          "os": "Windows 10/11 64-bit",
+          "cpu": "Intel Core i7 / AMD Ryzen 7",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 2060 / AMD RX 6600",
+          "storage": "1 GB",
+          "check": {
+            "ramGB": 16,
+            "cores": 6,
+            "dedicatedGPU": true
+          }
+        }
+      },
+      "executable": "PIVOT.exe",
+      "shaderCacheDirs": [
+        "{appdata}/Godot/app_userdata/PIVOT!/shader_cache"
+      ],
+      "builds": {}
     }
   ]
 }
