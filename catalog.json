@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T04:04:55.936Z",
+  "generatedAt": "2026-11-08T05:11:52.197Z",
   "games": [
     {
       "id": "sweetfang",
@@ -405,7 +405,13 @@
         "logo": "games/pivot/logo.png",
         "logoInBanner": false,
         "screenshots": [
-          "games/pivot/banner.jpg"
+          "games/pivot/banner.jpg",
+          "games/pivot/screenshot-1.jpg",
+          "games/pivot/screenshot-2.jpg",
+          "games/pivot/screenshot-3.jpg",
+          "games/pivot/screenshot-4.jpg",
+          "games/pivot/screenshot-5.jpg",
+          "games/pivot/screenshot-6.jpg"
         ],
         "hero": "games/pivot/hero.jpg"
       },
@@ -439,6 +445,7 @@
       "shaderCacheDirs": [
         "{appdata}/Godot/app_userdata/PIVOT!/shader_cache"
       ],
+      "liteExecutable": "PIVOT_Lite.exe",
       "builds": {}
     }
   ]
