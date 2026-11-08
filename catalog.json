@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T09:22:33.271Z",
+  "generatedAt": "2026-11-08T09:40:14.797Z",
   "games": [
     {
       "id": "sweetfang",
@@ -81,14 +81,27 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.14.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/sweetfang-v1.14.0/Sweetfang.exe",
-          "sha256": "03cc33bdb1fee3a6c155c501c9a4bdffb64f119d6f875b366861cd1ab6914eeb",
-          "size": 319660072,
+          "version": "1.16.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/sweetfang-v1.16.0/Sweetfang.exe",
+          "sha256": "3659e0d80166e42c69294f20a22d060da7e84a1540d9b0a80cb710efa6eb77ca",
+          "size": 334119912,
           "executable": "Sweetfang.exe",
           "launchArgs": [],
-          "released": "2026-10-15",
+          "released": "2026-11-08",
           "patchNotes": [
+            {
+              "version": "1.16.0",
+              "date": "2026-11-08",
+              "changes": [
+                "Every character is now fully voiced (197 lines), with a Voices volume slider in Settings",
+                "Text types along with the voice, and the music dips while someone talks",
+                "Conversations never restart or loop, and the talk box stays one size",
+                "Fixed Ember Oil flasks that were impossible to reach (Sugarbone Market, Glass Hive, Frozen Falls)",
+                "Stronger star-hook fling that always clears the ledge above",
+                "Map: + and - zoom buttons, a MOCHI button, and a tidier legend",
+                "Your save carries over"
+              ]
+            },
             {
               "version": "1.14.0",
               "date": "2026-10-15",
