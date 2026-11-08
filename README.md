@@ -26,7 +26,7 @@ That's it. About a minute later the store updates. Players get **UPDATE** on the
 
 - The version number must go up each time (1.0.3 → 1.0.4).
 - Each file can be up to **2 GB**.
-- Game ids: `sweetfang`, `brick-workshop`, `glint`, `off-the-books`, `battle-vox`, `wasteland`, `bit-bash-2026`, `dash-pack`.
+- Game ids: `sweetfang`, `pivot`, `brick-workshop`, `glint`, `off-the-books`, `battle-vox`, `wasteland`, `bit-bash-2026`, `dash-pack`.
 
 ### Low Spec builds
 Upload a release tagged `<game>-lite-v<version>`. Players whose PC is below the game's minimum specs are pointed to Low Spec automatically, and anyone can switch between **High** and **Low Spec** on the game's page.
