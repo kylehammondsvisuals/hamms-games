@@ -1,5 +1,7 @@
 # Rebuilds catalog.json (the store list every HAMMS launcher reads) whenever
 # a game folder changes or a release is published. Nothing to run by hand.
+# Then keeps the permanent download link (for itch.io and websites) on the newest version:
+#   https://github.com/kylehammondsvisuals/hamms-games/releases/download/brick-workshop-download/BrickWorkshop.zip
 name: Update store
 
 on:
@@ -39,3 +41,32 @@ jobs:
           git add catalog.json
           git commit -m "Update store"
           git push
+
+  download-link:
+    # Copies the newest Brick Workshop zip onto the "brick-workshop-download" release as
+    # BrickWorkshop.zip, so that one link always downloads the newest version.
+    needs: catalog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Update the permanent download
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull -q origin main
+          read VER URL < <(python3 -c "import json;c=json.load(open('catalog.json'));g=[x for x in c['games'] if x.get('id')=='brick-workshop'][0];b=g['builds']['standard'];print(b['version'],b['downloadUrl'])")
+          echo "newest Brick Workshop: $VER"
+          TAG=brick-workshop-download
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --prerelease --title "Brick Workshop (always the newest version)" \
+              --notes "This download is always the newest Brick Workshop for PC (version $VER)."
+          fi
+          HAVE=$(gh release view "$TAG" --json body -q .body | grep -o 'version [0-9.]*' | head -1 | cut -d' ' -f2)
+          ASSET=$(gh release view "$TAG" --json assets -q '.assets[].name' | grep -c '^BrickWorkshop.zip$' || true)
+          if [ "$HAVE" = "$VER" ] && [ "$ASSET" = "1" ]; then echo "already $VER"; exit 0; fi
+          curl -sSL --fail -o BrickWorkshop.zip "$URL"
+          gh release upload "$TAG" BrickWorkshop.zip --clobber
+          gh release edit "$TAG" --notes "This download is always the newest Brick Workshop for PC (version $VER)."
+          echo "permanent link now gives $VER"
