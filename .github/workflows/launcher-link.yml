@@ -1,0 +1,43 @@
+# Keeps a permanent download link for the HAMMS Studios launcher installer, for itch.io and
+# websites. It copies the newest installer from the hamms-launcher releases onto the
+# "hamms-launcher-download" release here, always under the same name:
+#   https://github.com/kylehammondsvisuals/hamms-games/releases/download/hamms-launcher-download/HAMMS-Studios-Setup.exe
+# Checks every few hours (and can be run by hand); nothing to do when you publish a launcher.
+name: Launcher download link
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: launcher-link
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy the newest launcher installer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          read VER URL < <(curl -sSL --fail https://api.github.com/repos/kylehammondsvisuals/hamms-launcher/releases/latest \
+            | python3 -c "import json,sys;r=json.load(sys.stdin);a=[x for x in r['assets'] if x['name'].lower().endswith('.exe')][0];print(r['tag_name'].lstrip('v'),a['browser_download_url'])")
+          echo "newest launcher: $VER"
+          TAG=hamms-launcher-download
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --prerelease --title "HAMMS Studios launcher (always the newest version)" \
+              --notes "This download is always the newest HAMMS Studios launcher for Windows (version $VER)."
+          fi
+          HAVE=$(gh release view "$TAG" --json body -q .body | grep -o 'version [0-9.]*' | head -1 | cut -d' ' -f2)
+          ASSET=$(gh release view "$TAG" --json assets -q '.assets[].name' | grep -c '^HAMMS-Studios-Setup.exe$' || true)
+          if [ "$HAVE" = "$VER" ] && [ "$ASSET" = "1" ]; then echo "already $VER"; exit 0; fi
+          curl -sSL --fail -o HAMMS-Studios-Setup.exe "$URL"
+          gh release upload "$TAG" HAMMS-Studios-Setup.exe --clobber
+          gh release edit "$TAG" --notes "This download is always the newest HAMMS Studios launcher for Windows (version $VER)."
+          echo "permanent launcher link now gives $VER"
