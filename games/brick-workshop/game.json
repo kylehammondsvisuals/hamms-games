@@ -30,7 +30,9 @@
       "screenshot-1.jpg",
       "screenshot-2.jpg"
     ],
-    "trailer": ""
+    "trailer": "",
+    "logoInBanner": false,
+    "hero": "hero.jpg"
   },
   "requirements": {
     "minimum": {
