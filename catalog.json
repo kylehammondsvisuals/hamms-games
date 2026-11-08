@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T09:09:21.736Z",
+  "generatedAt": "2026-11-08T09:14:03.982Z",
   "games": [
     {
       "id": "sweetfang",
@@ -445,7 +445,6 @@
       "shaderCacheDirs": [
         "{appdata}/Godot/app_userdata/PIVOT!/shader_cache"
       ],
-      "liteExecutable": "PIVOT_Lite.exe",
       "builds": {}
     }
   ]
