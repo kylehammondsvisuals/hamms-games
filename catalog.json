@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-08T09:14:03.982Z",
+  "generatedAt": "2026-11-08T09:15:51.898Z",
   "games": [
     {
       "id": "sweetfang",
@@ -379,7 +379,7 @@
       "title": "PIVOT!",
       "publisher": "HAMMS Studios",
       "partner": false,
-      "status": "coming-soon",
+      "status": "released",
       "featured": true,
       "order": 2,
       "type": "download",
@@ -445,7 +445,30 @@
       "shaderCacheDirs": [
         "{appdata}/Godot/app_userdata/PIVOT!/shader_cache"
       ],
-      "builds": {}
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "1.0.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/pivot-v1.0.0/PIVOT-1.0.0.zip",
+          "sha256": "ef8d4bca76361a068def122a019c367b44be0a897a06819d206410459d43735e",
+          "size": 81943639,
+          "executable": "PIVOT.exe",
+          "launchArgs": [],
+          "released": "2026-11-08",
+          "patchNotes": [
+            {
+              "version": "1.0.0",
+              "date": "2026-11-08",
+              "changes": [
+                "First release of PIVOT! on the HAMMS launcher",
+                "9 story jobs, endless gigs, 8 crew, 4 trucks, 4 offices",
+                "Fully voiced cast",
+                "Keyboard and mouse, PlayStation and Xbox controllers"
+              ]
+            }
+          ]
+        }
+      }
     }
   ]
 }
