@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-10T01:11:02.385Z",
+  "generatedAt": "2026-11-10T01:31:43.540Z",
   "games": [
     {
       "id": "sweetfang",
@@ -463,14 +463,21 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.1.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/pivot-v1.1.0/PIVOT-1.1.0.zip",
-          "sha256": "31cad54886c7d8e3e50a8e25df84489c301750b0a5a5ba34b14655968c65d8ea",
-          "size": 95700249,
+          "version": "1.1.1",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/pivot-v1.1.1/PIVOT-1.1.1.zip",
+          "sha256": "a491fb51f452455039a645ccbe11c74092ba8165eedf4a375787b09e8967517e",
+          "size": 95703547,
           "executable": "PIVOT.exe",
           "launchArgs": [],
           "released": "2026-11-10",
           "patchNotes": [
+            {
+              "version": "1.1.1",
+              "date": "2026-11-10",
+              "changes": [
+                "Button prompts now match the controller you're holding: keyboard & mouse, Xbox (A B X Y LB RB) or PlayStation (✕ ○ □ △ L1 R1), switching live. New Settings option: Button prompts (Auto / Xbox / PlayStation) for Steam Input users. Includes everything in 1.1.0."
+              ]
+            },
             {
               "version": "1.1.0",
               "date": "2026-11-10",
