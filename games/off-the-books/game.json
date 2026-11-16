@@ -7,29 +7,37 @@
   "featured": false,
   "order": 4,
   "type": "download",
-  "tagline": "No record. No backup.",
-  "description": "Two rogue operators abandoned their mission and now only one thing matters: the cash. A realistic, moonlit 1v1 extraction shooter with fast time-to-kill, real ballistics, a DMZ-style stash and five night maps from Lantern Village to the Rainy Lake Cabins.",
+  "tagline": "Two dirty cops. One Klan house. No backup.",
+  "description": "Dee and Don are brothers, adopted, and both dirty cops. The captain hands you the jobs off the books: gear up in your apartment, find the right house on a snowy street, take it apart, load the cash into the trunk and outrun every cruiser in town on the way home. Play it solo with your AI brother, together online, or head to head: one of you robs the house while the other one is the law.",
   "features": [
-    "Realistic ballistics and fast time-to-kill",
-    "Stash, loadouts and traders like the best extraction shooters",
-    "Five night-time maps with fog, rain and moonlight",
-    "Online 1v1 matchmaking with friends and parties"
+    "Bodycam first-person gunplay with real bullet travel",
+    "Solo with an AI brother you command, or co-op online with a friend",
+    "Versus: one player robs the house, the other plays the cop sent to stop him",
+    "Car chases where you shoot back, get out, and get back in",
+    "Play on PlayStation or Xbox controller, or keyboard and mouse"
   ],
   "genres": [
     "Tactical Shooter",
-    "Extraction",
-    "Multiplayer"
+    "Co-op",
+    "Crime"
   ],
   "engine": "Godot 4",
-  "players": "1v1 online",
+  "players": "1-2 players, online co-op and versus",
   "media": {
     "cover": "cover.jpg",
     "banner": "banner.jpg",
+    "hero": "hero.jpg",
     "logo": "logo.png",
+    "logoInBanner": false,
     "screenshots": [
-      "banner.jpg",
       "screenshot-1.jpg",
-      "screenshot-2.jpg"
+      "screenshot-2.jpg",
+      "screenshot-3.jpg",
+      "screenshot-4.jpg",
+      "screenshot-5.jpg",
+      "screenshot-6.jpg",
+      "screenshot-7.jpg",
+      "screenshot-8.jpg"
     ],
     "trailer": ""
   },
@@ -37,11 +45,11 @@
     "minimum": {
       "os": "Windows 10 64-bit",
       "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
-      "ram": "8 GB",
-      "gpu": "NVIDIA GTX 1060 / AMD RX 580 (6 GB)",
-      "storage": "15 GB",
+      "ram": "16 GB",
+      "gpu": "NVIDIA GTX 1660 / AMD RX 5600 XT (6 GB)",
+      "storage": "30 GB free while installing (10 GB after)",
       "check": {
-        "ramGB": 8,
+        "ramGB": 16,
         "cores": 6,
         "dedicatedGPU": true
       }
@@ -50,8 +58,8 @@
       "os": "Windows 10/11 64-bit",
       "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
       "ram": "16 GB",
-      "gpu": "NVIDIA RTX 2060 / AMD RX 6600 (8 GB)",
-      "storage": "15 GB SSD",
+      "gpu": "NVIDIA RTX 2060 or better (8 GB)",
+      "storage": "30 GB free while installing, SSD",
       "check": {
         "ramGB": 16,
         "cores": 8,
@@ -59,9 +67,9 @@
       }
     }
   },
-  "executable": "OffTheBooks.exe",
+  "executable": "OFF_THE_BOOKS.exe",
   "shaderCacheDirs": [
-    "{appdata}/Godot/app_userdata/Off The Books/shader_cache"
+    "{appdata}/Godot/app_userdata/HOUSE CALL/shader_cache"
   ],
-  "hidden": true
+  "singleBuild": true
 }

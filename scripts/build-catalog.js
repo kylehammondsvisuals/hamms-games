@@ -74,6 +74,7 @@ function readGames(dir, partner) {
   const previous = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { games: [] };
   const prevHash = {};
   for (const g of previous.games || []) for (const b of Object.values(g.builds || {})) if (b.downloadUrl && b.sha256) prevHash[b.downloadUrl] = b.sha256;
+  for (const g of previous.games || []) for (const b of Object.values(g.builds || {})) for (const pt of b.parts || []) if (pt.url && pt.sha256) prevHash[pt.url] = pt.sha256;
 
   // Latest release per game + build
   const latest = {};
@@ -92,6 +93,20 @@ function readGames(dir, partner) {
         // A build is either a .zip of the export folder or a single .exe (Godot with embedded .pck).
         // If other files got attached too (model zips, sounds...), prefer the one named after the
         // game's .exe (ParchisParty-1.2.0.zip for ParchisParty.exe), then the biggest one.
+        // A game over GitHub's 2 GB per-file limit is attached as numbered pieces of one zip:
+        // Game.zip.001, Game.zip.002 ... (launcher 1.3.0+ downloads and joins them).
+        const pieces = (r.assets || []).filter((a) => /\.zip\.\d{3}$/i.test(a.name)).sort((a, b) => a.name.localeCompare(b.name));
+        if (pieces.length) {
+          const key = `${id.toLowerCase()}|${lite ? 'lite' : 'standard'}`;
+          if (!latest[key] || cmp(version, latest[key].version) > 0) {
+            latest[key] = {
+              version, downloadUrl: pieces[0].browser_download_url, size: pieces.reduce((n, a) => n + a.size, 0), exeName: null,
+              parts: pieces.map((a) => ({ url: a.browser_download_url, size: a.size, sha256: a.digest && a.digest.startsWith('sha256:') ? a.digest.slice(7) : null })),
+              date: (r.published_at || '').slice(0, 10), notes: notesFrom(r.body),
+            };
+          }
+          continue;
+        }
         const builds = (r.assets || []).filter((a) => /\.(zip|exe)$/i.test(a.name));
         const game = games.find((g) => g.id.toLowerCase() === id.toLowerCase());
         const base = game && game.executable ? game.executable.replace(/\.exe$/i, '').toLowerCase().replace(/[^a-z0-9]/g, '') : '';
@@ -119,13 +134,21 @@ function readGames(dir, partner) {
     for (const [buildId, label] of [['standard', 'High'], ['lite', 'Low Spec']]) {
       const rel = latest[`${g.id.toLowerCase()}|${buildId}`];
       if (!rel) continue;
-      let sha = rel.digest || prevHash[rel.downloadUrl];
-      if (!sha) {
+      if (rel.parts) {
+        for (const pt of rel.parts) {
+          if (!pt.sha256) pt.sha256 = prevHash[pt.url] || null;
+          if (!pt.sha256) { console.log(`hashing ${pt.url} …`); pt.sha256 = await hashUrl(pt.url); }
+        }
+        g.minLauncherVersion = g.minLauncherVersion && cmp(g.minLauncherVersion, '1.3.0') > 0 ? g.minLauncherVersion : '1.3.0';
+      }
+      let sha = rel.parts ? null : rel.digest || prevHash[rel.downloadUrl];
+      if (!sha && !rel.parts) {
         console.log(`hashing ${rel.downloadUrl} …`);
         sha = await hashUrl(rel.downloadUrl);
       }
       g.builds[buildId] = {
         label, version: rel.version, downloadUrl: rel.downloadUrl, sha256: sha, size: rel.size,
+        ...(rel.parts ? { parts: rel.parts } : {}),
         executable: rel.exeName || (buildId === 'lite' && g.liteExecutable) || g.executable,
         launchArgs: (buildId === 'lite' && g.liteLaunchArgs) || g.launchArgs || [],
         released: rel.date,
