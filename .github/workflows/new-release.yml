@@ -1,0 +1,35 @@
+# Makes a DRAFT release with the tag, title and patch notes already filled in.
+# Then open the draft on GitHub, drag the game's file(s) in and click Publish release.
+# Drafts never show in the store; publishing it is what puts the update out.
+name: New game release (draft)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag, like off-the-books-v0.145.0"
+        required: true
+      title:
+        description: "Title, like Off The Books 0.145.0"
+        required: true
+      notes:
+        description: "Patch notes, one per line starting with -"
+        required: false
+        default: "- Bug fixes and improvements"
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make the draft
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ inputs.tag }}
+          TITLE: ${{ inputs.title }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          printf '%s\n' "$NOTES" > notes.txt
+          gh release create "$TAG" -R "$GITHUB_REPOSITORY" --draft --target main --title "$TITLE" --notes-file notes.txt

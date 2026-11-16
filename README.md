@@ -26,6 +26,7 @@ That's it. About a minute later the store updates. Players get **UPDATE** on the
 
 - The version number must go up each time (1.0.3 → 1.0.4).
 - Each file can be up to **2 GB**.
+- **Bigger than 2 GB?** Attach the game as numbered pieces of one zip instead: `Game.zip.001`, `Game.zip.002`, … (each under 2 GB). The launcher (1.3.0 and newer) downloads every piece, checks it, joins them and installs. Older launchers are told to update first.
 - Game ids: `sweetfang`, `pivot`, `brick-workshop`, `glint`, `off-the-books`, `battle-vox`, `wasteland`, `bit-bash-2026`, `dash-pack`.
 
 ### Low Spec builds
