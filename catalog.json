@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-16T11:19:09.949Z",
+  "generatedAt": "2026-11-16T12:34:24.717Z",
   "games": [
     {
       "id": "sweetfang",
@@ -504,7 +504,7 @@
       "title": "Off The Books",
       "publisher": "HAMMS Studios",
       "partner": false,
-      "status": "coming-soon",
+      "status": "released",
       "featured": false,
       "order": 4,
       "type": "download",
@@ -573,7 +573,97 @@
         "{appdata}/Godot/app_userdata/HOUSE CALL/shader_cache"
       ],
       "singleBuild": true,
-      "builds": {}
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "0.145.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+          "sha256": null,
+          "size": 5856581037,
+          "parts": [
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+              "size": 1950000000,
+              "sha256": "857599c2c4b0e01904d77ae7995c276d05f88871212bbe0e492e3b2fb7a77ad3"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.002",
+              "size": 1950000000,
+              "sha256": "c63b95874a096efbd4433ace4329ee1d8403990bac75e346966827253c8e3d47"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.003",
+              "size": 1950000000,
+              "sha256": "588193ab86cf76431c0be91da7b81799c19c874d4020474ee69c85417980bf83"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.004",
+              "size": 6581037,
+              "sha256": "8f9b641c4fcf528785086f1dbb703f9fffb4983c297e16c8544cfa28dbf17cb9"
+            }
+          ],
+          "executable": "OFF_THE_BOOKS.exe",
+          "launchArgs": [],
+          "released": "2026-11-16",
+          "patchNotes": [
+            {
+              "version": "0.145.0",
+              "date": "2026-11-16",
+              "changes": [
+                "First release on the HAMMS launcher: solo, online co-op and versus",
+                "Getting out of a police car no longer spins your view",
+                "Police cars no longer fly into the air when the cops get out",
+                "Your brother gets back in the car right away when he's close"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "High",
+          "version": "0.145.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+          "sha256": null,
+          "size": 5856581037,
+          "parts": [
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+              "size": 1950000000,
+              "sha256": "857599c2c4b0e01904d77ae7995c276d05f88871212bbe0e492e3b2fb7a77ad3"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.002",
+              "size": 1950000000,
+              "sha256": "c63b95874a096efbd4433ace4329ee1d8403990bac75e346966827253c8e3d47"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.003",
+              "size": 1950000000,
+              "sha256": "588193ab86cf76431c0be91da7b81799c19c874d4020474ee69c85417980bf83"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.004",
+              "size": 6581037,
+              "sha256": "8f9b641c4fcf528785086f1dbb703f9fffb4983c297e16c8544cfa28dbf17cb9"
+            }
+          ],
+          "executable": "OFF_THE_BOOKS.exe",
+          "launchArgs": [],
+          "released": "2026-11-16",
+          "patchNotes": [
+            {
+              "version": "0.145.0",
+              "date": "2026-11-16",
+              "changes": [
+                "First release on the HAMMS launcher: solo, online co-op and versus",
+                "Getting out of a police car no longer spins your view",
+                "Police cars no longer fly into the air when the cops get out",
+                "Your brother gets back in the car right away when he's close"
+              ]
+            }
+          ]
+        }
+      },
+      "minLauncherVersion": "1.3.0"
     }
   ]
 }
