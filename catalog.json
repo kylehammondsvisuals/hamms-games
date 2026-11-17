@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-17T14:05:47.579Z",
+  "generatedAt": "2026-11-17T17:41:15.781Z",
   "games": [
     {
       "id": "sweetfang",
@@ -576,36 +576,49 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.148.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
+          "version": "0.149.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
           "sha256": null,
-          "size": 6219453010,
+          "size": 6219472584,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
               "size": 1950000000,
-              "sha256": "76ac3d3e58f6545af445d4915b3589124b52f5db4e8393d23995672e65dcc0d1"
+              "sha256": "a9ab632c9ab706d64be7908e8882ac1d619966e534cdd907685721c6e8cf18ef"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.002",
               "size": 1950000000,
               "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.003",
               "size": 1950000000,
               "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.004",
-              "size": 369453010,
-              "sha256": "b835c2865cb065ba356fabb416d738001a0b5965c06b2299a35f808c410745b6"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.004",
+              "size": 369472584,
+              "sha256": "efb1808a16172cc1da17eda2ed836e6ce8a590c4c8f9c85c9b4aa9e1dfb16ee8"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.149.0",
+              "date": "2026-11-17",
+              "changes": [
+                "Online: in Cops and Robbers your partner now gets into the cruiser with you, rides beside you and gets out with you",
+                "Online: doors opened or kicked in by one player are now open for the other",
+                "Online: the other player, the people on the street and the other car move smoothly instead of lurching",
+                "Online: players take full damage from each other (the other player was three times too tough)",
+                "Online: a slow loading screen no longer drops the party",
+                "The captain's phone call no longer starts over every time you press Continue",
+                "Both players need this update to play together"
+              ]
+            },
             {
               "version": "0.148.0",
               "date": "2026-11-17",
@@ -633,36 +646,49 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.148.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
+          "version": "0.149.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
           "sha256": null,
-          "size": 6219453010,
+          "size": 6219472584,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
               "size": 1950000000,
-              "sha256": "76ac3d3e58f6545af445d4915b3589124b52f5db4e8393d23995672e65dcc0d1"
+              "sha256": "a9ab632c9ab706d64be7908e8882ac1d619966e534cdd907685721c6e8cf18ef"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.002",
               "size": 1950000000,
               "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.003",
               "size": 1950000000,
               "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.004",
-              "size": 369453010,
-              "sha256": "b835c2865cb065ba356fabb416d738001a0b5965c06b2299a35f808c410745b6"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.004",
+              "size": 369472584,
+              "sha256": "efb1808a16172cc1da17eda2ed836e6ce8a590c4c8f9c85c9b4aa9e1dfb16ee8"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.149.0",
+              "date": "2026-11-17",
+              "changes": [
+                "Online: in Cops and Robbers your partner now gets into the cruiser with you, rides beside you and gets out with you",
+                "Online: doors opened or kicked in by one player are now open for the other",
+                "Online: the other player, the people on the street and the other car move smoothly instead of lurching",
+                "Online: players take full damage from each other (the other player was three times too tough)",
+                "Online: a slow loading screen no longer drops the party",
+                "The captain's phone call no longer starts over every time you press Continue",
+                "Both players need this update to play together"
+              ]
+            },
             {
               "version": "0.148.0",
               "date": "2026-11-17",
