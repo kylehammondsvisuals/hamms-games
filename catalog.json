@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-16T12:34:53.057Z",
+  "generatedAt": "2026-11-17T14:05:47.579Z",
   "games": [
     {
       "id": "sweetfang",
@@ -576,36 +576,49 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.145.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+          "version": "0.148.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
           "sha256": null,
-          "size": 5856581037,
+          "size": 6219453010,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
               "size": 1950000000,
-              "sha256": "857599c2c4b0e01904d77ae7995c276d05f88871212bbe0e492e3b2fb7a77ad3"
+              "sha256": "76ac3d3e58f6545af445d4915b3589124b52f5db4e8393d23995672e65dcc0d1"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.002",
               "size": 1950000000,
-              "sha256": "c63b95874a096efbd4433ace4329ee1d8403990bac75e346966827253c8e3d47"
+              "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.003",
               "size": 1950000000,
-              "sha256": "588193ab86cf76431c0be91da7b81799c19c874d4020474ee69c85417980bf83"
+              "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.004",
-              "size": 6581037,
-              "sha256": "8f9b641c4fcf528785086f1dbb703f9fffb4983c297e16c8544cfa28dbf17cb9"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.004",
+              "size": 369453010,
+              "sha256": "b835c2865cb065ba356fabb416d738001a0b5965c06b2299a35f808c410745b6"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
-          "released": "2026-11-16",
+          "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.148.0",
+              "date": "2026-11-17",
+              "changes": [
+                "New job: NO VACANCY. A cartel crew holds the Paradise Motel; the money is in Room 209 and a federal task force is ten minutes out",
+                "Six bags at the motel: two at a time to the trunk, as many trips as you dare",
+                "The apartment tablet now holds two contracts: L1 / R1 turns between them",
+                "Orders to your brother or partner are on R1 now (was L1)",
+                "Enemies and your brother take cover against walls, lean out, and react to being hit",
+                "Cars: wipers, horns, mirrors, cabin light, better pass-by and engine sound",
+                "Online: both games must be on d148"
+              ]
+            },
             {
               "version": "0.145.0",
               "date": "2026-11-16",
@@ -620,36 +633,49 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.145.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+          "version": "0.148.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
           "sha256": null,
-          "size": 5856581037,
+          "size": 6219453010,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.001",
               "size": 1950000000,
-              "sha256": "857599c2c4b0e01904d77ae7995c276d05f88871212bbe0e492e3b2fb7a77ad3"
+              "sha256": "76ac3d3e58f6545af445d4915b3589124b52f5db4e8393d23995672e65dcc0d1"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.002",
               "size": 1950000000,
-              "sha256": "c63b95874a096efbd4433ace4329ee1d8403990bac75e346966827253c8e3d47"
+              "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.003",
               "size": 1950000000,
-              "sha256": "588193ab86cf76431c0be91da7b81799c19c874d4020474ee69c85417980bf83"
+              "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.145.0/OFF_THE_BOOKS_d145.zip.004",
-              "size": 6581037,
-              "sha256": "8f9b641c4fcf528785086f1dbb703f9fffb4983c297e16c8544cfa28dbf17cb9"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.148.0/OFF_THE_BOOKS_d148.zip.004",
+              "size": 369453010,
+              "sha256": "b835c2865cb065ba356fabb416d738001a0b5965c06b2299a35f808c410745b6"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
-          "released": "2026-11-16",
+          "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.148.0",
+              "date": "2026-11-17",
+              "changes": [
+                "New job: NO VACANCY. A cartel crew holds the Paradise Motel; the money is in Room 209 and a federal task force is ten minutes out",
+                "Six bags at the motel: two at a time to the trunk, as many trips as you dare",
+                "The apartment tablet now holds two contracts: L1 / R1 turns between them",
+                "Orders to your brother or partner are on R1 now (was L1)",
+                "Enemies and your brother take cover against walls, lean out, and react to being hit",
+                "Cars: wipers, horns, mirrors, cabin light, better pass-by and engine sound",
+                "Online: both games must be on d148"
+              ]
+            },
             {
               "version": "0.145.0",
               "date": "2026-11-16",
