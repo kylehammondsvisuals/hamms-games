@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-17T17:41:15.781Z",
+  "generatedAt": "2026-11-17T21:39:31.257Z",
   "games": [
     {
       "id": "sweetfang",
@@ -576,36 +576,51 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.149.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
+          "version": "0.150.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
           "sha256": null,
-          "size": 6219472584,
+          "size": 6421881442,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
               "size": 1950000000,
-              "sha256": "a9ab632c9ab706d64be7908e8882ac1d619966e534cdd907685721c6e8cf18ef"
+              "sha256": "027bf96c72bc3d4e13a4c006d483234992bdd6bbd370ff77f347bc98eab58a4b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.002",
               "size": 1950000000,
-              "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
+              "sha256": "073291f95ec422f92fd99fd5dc4ec8de38d84bd9af319994e95d604617a1d821"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.003",
               "size": 1950000000,
-              "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
+              "sha256": "744c7dbffdf660c61ee68d1f0b36a61ab936426be3b2047626574d108894869b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.004",
-              "size": 369472584,
-              "sha256": "efb1808a16172cc1da17eda2ed836e6ce8a590c4c8f9c85c9b4aa9e1dfb16ee8"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.004",
+              "size": 571881442,
+              "sha256": "0b468a5d212ae8d4577cb859397f86eba5543a93e60849ef1c107433fed26eb9"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.150.0",
+              "date": "2026-11-17",
+              "changes": [
+                "New mission: LAST RIDE. An abandoned amusement park held by a local crew. Clear it out and get the four bags off the roller coaster's platform. A loud shot starts a four-minute clock before the county sheriff arrives",
+                "New online mode: BAG RACE. One bag, a car each at opposite ends of the street. Shoot each other and respawn until someone drives off with it, then it's a chase to the drop-off with no respawns",
+                "Co-op: your partner can now get in the car and ride off with you, and bags he puts in the trunk count",
+                "Co-op: both games now have the cash in the same place (a bag one player took was not always taken for the other)",
+                "Co-op: a car with your partner already sitting in it is no longer thrown across the street when you take the wheel",
+                "Cops and Robbers: the robber now sees the law's partner climb into and out of the cruiser",
+                "The captain's call in the middle of a job no longer stands you still in a gunfight",
+                "Motel: the outside stairs lead onto the walkway properly, and reception is furnished",
+                "Both players need this update to play together"
+              ]
+            },
             {
               "version": "0.149.0",
               "date": "2026-11-17",
@@ -646,36 +661,51 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.149.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
+          "version": "0.150.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
           "sha256": null,
-          "size": 6219472584,
+          "size": 6421881442,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
               "size": 1950000000,
-              "sha256": "a9ab632c9ab706d64be7908e8882ac1d619966e534cdd907685721c6e8cf18ef"
+              "sha256": "027bf96c72bc3d4e13a4c006d483234992bdd6bbd370ff77f347bc98eab58a4b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.002",
               "size": 1950000000,
-              "sha256": "26ecf581abfe131108027ed9f9e08b897bfe224eedc22bc15e83a91d7e97d24f"
+              "sha256": "073291f95ec422f92fd99fd5dc4ec8de38d84bd9af319994e95d604617a1d821"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.003",
               "size": 1950000000,
-              "sha256": "11d79e3a977351f5b5be890681975557b12c99e4f511d1f4d5e99e722946a436"
+              "sha256": "744c7dbffdf660c61ee68d1f0b36a61ab936426be3b2047626574d108894869b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.149.0/OFF_THE_BOOKS_d149.zip.004",
-              "size": 369472584,
-              "sha256": "efb1808a16172cc1da17eda2ed836e6ce8a590c4c8f9c85c9b4aa9e1dfb16ee8"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.004",
+              "size": 571881442,
+              "sha256": "0b468a5d212ae8d4577cb859397f86eba5543a93e60849ef1c107433fed26eb9"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-17",
           "patchNotes": [
+            {
+              "version": "0.150.0",
+              "date": "2026-11-17",
+              "changes": [
+                "New mission: LAST RIDE. An abandoned amusement park held by a local crew. Clear it out and get the four bags off the roller coaster's platform. A loud shot starts a four-minute clock before the county sheriff arrives",
+                "New online mode: BAG RACE. One bag, a car each at opposite ends of the street. Shoot each other and respawn until someone drives off with it, then it's a chase to the drop-off with no respawns",
+                "Co-op: your partner can now get in the car and ride off with you, and bags he puts in the trunk count",
+                "Co-op: both games now have the cash in the same place (a bag one player took was not always taken for the other)",
+                "Co-op: a car with your partner already sitting in it is no longer thrown across the street when you take the wheel",
+                "Cops and Robbers: the robber now sees the law's partner climb into and out of the cruiser",
+                "The captain's call in the middle of a job no longer stands you still in a gunfight",
+                "Motel: the outside stairs lead onto the walkway properly, and reception is furnished",
+                "Both players need this update to play together"
+              ]
+            },
             {
               "version": "0.149.0",
               "date": "2026-11-17",
