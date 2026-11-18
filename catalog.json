@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-17T21:39:31.257Z",
+  "generatedAt": "2026-11-18T01:01:03.465Z",
   "games": [
     {
       "id": "sweetfang",
@@ -576,36 +576,53 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.150.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
+          "version": "0.151.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
           "sha256": null,
-          "size": 6421881442,
+          "size": 6421899147,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
               "size": 1950000000,
-              "sha256": "027bf96c72bc3d4e13a4c006d483234992bdd6bbd370ff77f347bc98eab58a4b"
+              "sha256": "bf07c00fdce8a4f354ec1549a0ae004836d71a9084b581364d3a6c374773986c"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.002",
               "size": 1950000000,
-              "sha256": "073291f95ec422f92fd99fd5dc4ec8de38d84bd9af319994e95d604617a1d821"
+              "sha256": "01c73f9552bb74ad580840ba01aae04918eebbb2d5dd57d63abf1c7efc3ea534"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.003",
               "size": 1950000000,
-              "sha256": "744c7dbffdf660c61ee68d1f0b36a61ab936426be3b2047626574d108894869b"
+              "sha256": "fd2470d208a74dabcddcf48a7b35e75728deb2b0f862a2e3e1f4d24e1157c471"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.004",
-              "size": 571881442,
-              "sha256": "0b468a5d212ae8d4577cb859397f86eba5543a93e60849ef1c107433fed26eb9"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.004",
+              "size": 571899147,
+              "sha256": "2ff97a534e118641c4a489e07109a305e6f0d3fab9da9664fd033973eb89e88a"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
-          "released": "2026-11-17",
+          "released": "2026-11-18",
           "patchNotes": [
+            {
+              "version": "0.151.0",
+              "date": "2026-11-18",
+              "changes": [
+                "Phone and online calls, rebuilt:",
+                "The phone always comes up on screen. Pressing the button fast or twice no longer parks it below the screen",
+                "Controllers that Windows sees twice (DS4Windows, Steam Input, some Bluetooth pads) now open the phone properly",
+                "Second phone button: touchpad click (PlayStation), View (Xbox) or Tab. Options / Esc has a PHONE option too",
+                "Incoming calls start on ANSWER: Cross / A picks up, Circle / B declines",
+                "A call that comes in while a menu is open waits and pops up when you close it. A bar at the top says who is calling",
+                "The phone checks its own line every few seconds and reconnects by itself. Its signal bars show whether calls can reach you",
+                "The caller sees what is happening: CONNECTING, RINGING, HE'S AT THE MAIN MENU, HIS PHONE IS OFF, or WRONG UPDATE",
+                "After a friend's game dropped, the leader's phone used to say \"busy\" until a restart. Fixed",
+                "The captain's first call: hold Circle or use Options > END THE CALL to get your phone back",
+                "Your phone number and update show on the phone's home screen and in the pause menu"
+              ]
+            },
             {
               "version": "0.150.0",
               "date": "2026-11-17",
@@ -661,36 +678,53 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.150.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
+          "version": "0.151.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
           "sha256": null,
-          "size": 6421881442,
+          "size": 6421899147,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
               "size": 1950000000,
-              "sha256": "027bf96c72bc3d4e13a4c006d483234992bdd6bbd370ff77f347bc98eab58a4b"
+              "sha256": "bf07c00fdce8a4f354ec1549a0ae004836d71a9084b581364d3a6c374773986c"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.002",
               "size": 1950000000,
-              "sha256": "073291f95ec422f92fd99fd5dc4ec8de38d84bd9af319994e95d604617a1d821"
+              "sha256": "01c73f9552bb74ad580840ba01aae04918eebbb2d5dd57d63abf1c7efc3ea534"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.003",
               "size": 1950000000,
-              "sha256": "744c7dbffdf660c61ee68d1f0b36a61ab936426be3b2047626574d108894869b"
+              "sha256": "fd2470d208a74dabcddcf48a7b35e75728deb2b0f862a2e3e1f4d24e1157c471"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.150.0/OFF_THE_BOOKS_d150.zip.004",
-              "size": 571881442,
-              "sha256": "0b468a5d212ae8d4577cb859397f86eba5543a93e60849ef1c107433fed26eb9"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.004",
+              "size": 571899147,
+              "sha256": "2ff97a534e118641c4a489e07109a305e6f0d3fab9da9664fd033973eb89e88a"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
-          "released": "2026-11-17",
+          "released": "2026-11-18",
           "patchNotes": [
+            {
+              "version": "0.151.0",
+              "date": "2026-11-18",
+              "changes": [
+                "Phone and online calls, rebuilt:",
+                "The phone always comes up on screen. Pressing the button fast or twice no longer parks it below the screen",
+                "Controllers that Windows sees twice (DS4Windows, Steam Input, some Bluetooth pads) now open the phone properly",
+                "Second phone button: touchpad click (PlayStation), View (Xbox) or Tab. Options / Esc has a PHONE option too",
+                "Incoming calls start on ANSWER: Cross / A picks up, Circle / B declines",
+                "A call that comes in while a menu is open waits and pops up when you close it. A bar at the top says who is calling",
+                "The phone checks its own line every few seconds and reconnects by itself. Its signal bars show whether calls can reach you",
+                "The caller sees what is happening: CONNECTING, RINGING, HE'S AT THE MAIN MENU, HIS PHONE IS OFF, or WRONG UPDATE",
+                "After a friend's game dropped, the leader's phone used to say \"busy\" until a restart. Fixed",
+                "The captain's first call: hold Circle or use Options > END THE CALL to get your phone back",
+                "Your phone number and update show on the phone's home screen and in the pause menu"
+              ]
+            },
             {
               "version": "0.150.0",
               "date": "2026-11-17",
