@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-18T01:01:03.465Z",
+  "generatedAt": "2026-11-18T05:37:20.624Z",
   "games": [
     {
       "id": "sweetfang",
@@ -576,36 +576,47 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "0.151.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
+          "version": "0.152.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.001",
           "sha256": null,
-          "size": 6421899147,
+          "size": 6493272644,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.001",
               "size": 1950000000,
-              "sha256": "bf07c00fdce8a4f354ec1549a0ae004836d71a9084b581364d3a6c374773986c"
+              "sha256": "2f265ccc6fe4174381828881bbbfe62693f009747b37dc9eb49640f737db43ee"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.002",
               "size": 1950000000,
-              "sha256": "01c73f9552bb74ad580840ba01aae04918eebbb2d5dd57d63abf1c7efc3ea534"
+              "sha256": "2caf244f6b2468701edf0473303cebde87238e989d61ebb4423e88426318f4d3"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.003",
               "size": 1950000000,
-              "sha256": "fd2470d208a74dabcddcf48a7b35e75728deb2b0f862a2e3e1f4d24e1157c471"
+              "sha256": "7fee2224bb8d455d7553a6149868ee26bcbc480336b9fd7d7ce0fa12724148c1"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.004",
-              "size": 571899147,
-              "sha256": "2ff97a534e118641c4a489e07109a305e6f0d3fab9da9664fd033973eb89e88a"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.004",
+              "size": 643272644,
+              "sha256": "94b991d936cc567ff9aa6f6eeed02432abe25668aafae44cad7ac51403df8f5a"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-18",
           "patchNotes": [
+            {
+              "version": "0.152.0",
+              "date": "2026-11-18",
+              "changes": [
+                "NO VACANCY rebuilt on PropHaus's own Paradise Motel example map: every building, walkway, the pool, reception and the parking bays as the pack's makers laid them out",
+                "Palm trees are winter maples, the outdoor tropical plants are gone, and there is no snow under the roofs and walkways",
+                "Room 209 is at the far end of the north building's top floor; 8 rooms you can go into; both flights of stairs walk smoothly",
+                "About fifteen cartel men, rifles up on the walkways, two night staff at the reception desk",
+                "LAST RIDE: trees no longer float, and there are no gunmen at the gate or the ticket booth"
+              ]
+            },
             {
               "version": "0.151.0",
               "date": "2026-11-18",
@@ -678,36 +689,47 @@
         },
         "lite": {
           "label": "High",
-          "version": "0.151.0",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
+          "version": "0.152.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.001",
           "sha256": null,
-          "size": 6421899147,
+          "size": 6493272644,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.001",
               "size": 1950000000,
-              "sha256": "bf07c00fdce8a4f354ec1549a0ae004836d71a9084b581364d3a6c374773986c"
+              "sha256": "2f265ccc6fe4174381828881bbbfe62693f009747b37dc9eb49640f737db43ee"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.002",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.002",
               "size": 1950000000,
-              "sha256": "01c73f9552bb74ad580840ba01aae04918eebbb2d5dd57d63abf1c7efc3ea534"
+              "sha256": "2caf244f6b2468701edf0473303cebde87238e989d61ebb4423e88426318f4d3"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.003",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.003",
               "size": 1950000000,
-              "sha256": "fd2470d208a74dabcddcf48a7b35e75728deb2b0f862a2e3e1f4d24e1157c471"
+              "sha256": "7fee2224bb8d455d7553a6149868ee26bcbc480336b9fd7d7ce0fa12724148c1"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.151.0/OFF_THE_BOOKS_d151.zip.004",
-              "size": 571899147,
-              "sha256": "2ff97a534e118641c4a489e07109a305e6f0d3fab9da9664fd033973eb89e88a"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/off-the-books-v0.152.0/OFF_THE_BOOKS_d152.zip.004",
+              "size": 643272644,
+              "sha256": "94b991d936cc567ff9aa6f6eeed02432abe25668aafae44cad7ac51403df8f5a"
             }
           ],
           "executable": "OFF_THE_BOOKS.exe",
           "launchArgs": [],
           "released": "2026-11-18",
           "patchNotes": [
+            {
+              "version": "0.152.0",
+              "date": "2026-11-18",
+              "changes": [
+                "NO VACANCY rebuilt on PropHaus's own Paradise Motel example map: every building, walkway, the pool, reception and the parking bays as the pack's makers laid them out",
+                "Palm trees are winter maples, the outdoor tropical plants are gone, and there is no snow under the roofs and walkways",
+                "Room 209 is at the far end of the north building's top floor; 8 rooms you can go into; both flights of stairs walk smoothly",
+                "About fifteen cartel men, rifles up on the walkways, two night staff at the reception desk",
+                "LAST RIDE: trees no longer float, and there are no gunmen at the gate or the ticket booth"
+              ]
+            },
             {
               "version": "0.151.0",
               "date": "2026-11-18",
