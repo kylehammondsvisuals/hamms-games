@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-24T10:55:34.328Z",
+  "generatedAt": "2026-11-24T11:17:53.432Z",
   "games": [
     {
       "id": "sweetfang",
@@ -428,7 +428,8 @@
           "games/low-tide/screenshot-3.jpg",
           "games/low-tide/screenshot-4.jpg",
           "games/low-tide/screenshot-5.jpg",
-          "games/low-tide/screenshot-6.jpg"
+          "games/low-tide/screenshot-6.jpg",
+          "games/low-tide/screenshot-7.jpg"
         ],
         "trailer": ""
       },
