@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-24T16:54:13.628Z",
+  "generatedAt": "2026-11-24T17:10:21.453Z",
   "games": [
     {
       "id": "sweetfang",
@@ -467,26 +467,33 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.0.1",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.001",
+          "version": "1.0.2",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.001",
           "sha256": null,
-          "size": 2664881789,
+          "size": 2664881788,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.001",
               "size": 1950000000,
-              "sha256": "3d025cd20ae32e25d8c40d3863c59a6de4f907ff191079622aa75b5cc9725122"
+              "sha256": "7ad4f4818adfab10e0dd5087ec35d10135274489edb4508cd5c270a55981662b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.002",
-              "size": 714881789,
-              "sha256": "d59556e9f5ff30f318c65fc46e18166975c8993b34f766a252070b281965c9ff"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.002",
+              "size": 714881788,
+              "sha256": "b097ee92a150663c4fc8585f6bad9730c8be22fb8138a29ac2bb63a69678b67c"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
           "released": "2026-11-24",
           "patchNotes": [
+            {
+              "version": "1.0.2",
+              "date": "2026-11-24",
+              "changes": [
+                "Weapon wheel moved to RB (hold RB to open it, tap RB for the next gun). LB is just the lights now."
+              ]
+            },
             {
               "version": "1.0.1",
               "date": "2026-11-24",
@@ -511,26 +518,33 @@
         },
         "lite": {
           "label": "High",
-          "version": "1.0.1",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.001",
+          "version": "1.0.2",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.001",
           "sha256": null,
-          "size": 2664881789,
+          "size": 2664881788,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.001",
               "size": 1950000000,
-              "sha256": "3d025cd20ae32e25d8c40d3863c59a6de4f907ff191079622aa75b5cc9725122"
+              "sha256": "7ad4f4818adfab10e0dd5087ec35d10135274489edb4508cd5c270a55981662b"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.1/LOW_TIDE-1.0.1.zip.002",
-              "size": 714881789,
-              "sha256": "d59556e9f5ff30f318c65fc46e18166975c8993b34f766a252070b281965c9ff"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.2/LOW_TIDE-1.0.2.zip.002",
+              "size": 714881788,
+              "sha256": "b097ee92a150663c4fc8585f6bad9730c8be22fb8138a29ac2bb63a69678b67c"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
           "released": "2026-11-24",
           "patchNotes": [
+            {
+              "version": "1.0.2",
+              "date": "2026-11-24",
+              "changes": [
+                "Weapon wheel moved to RB (hold RB to open it, tap RB for the next gun). LB is just the lights now."
+              ]
+            },
             {
               "version": "1.0.1",
               "date": "2026-11-24",
