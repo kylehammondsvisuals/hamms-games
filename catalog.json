@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-24T21:57:11.191Z",
+  "generatedAt": "2026-11-24T22:55:43.071Z",
   "games": [
     {
       "id": "sweetfang",
@@ -467,26 +467,33 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.0.3",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.001",
+          "version": "1.0.4",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
           "sha256": null,
-          "size": 2664986225,
+          "size": 2664986173,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
               "size": 1950000000,
-              "sha256": "ef2ed5e9533213963a2289935b0fce3ecc88ee3c939eaa5fe2d0001019953ab6"
+              "sha256": "4032d10de10b1b749ced067c7018874fa759cda62985d3060f5a00cdeb418aeb"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.002",
-              "size": 714986225,
-              "sha256": "127766d12347c28318e5189e69c054343082d6b8d995720ef9b9eaec5d13036c"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.002",
+              "size": 714986173,
+              "sha256": "3a5d92c7ed0508a143db7fa43050cb982ba14041807fb3d5eb674c4e5bcc02da"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
           "released": "2026-11-24",
           "patchNotes": [
+            {
+              "version": "1.0.4",
+              "date": "2026-11-24",
+              "changes": [
+                "Fixed the game freezing on its loading screen"
+              ]
+            },
             {
               "version": "1.0.3",
               "date": "2026-11-24",
@@ -526,26 +533,33 @@
         },
         "lite": {
           "label": "High",
-          "version": "1.0.3",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.001",
+          "version": "1.0.4",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
           "sha256": null,
-          "size": 2664986225,
+          "size": 2664986173,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
               "size": 1950000000,
-              "sha256": "ef2ed5e9533213963a2289935b0fce3ecc88ee3c939eaa5fe2d0001019953ab6"
+              "sha256": "4032d10de10b1b749ced067c7018874fa759cda62985d3060f5a00cdeb418aeb"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.3/LOW_TIDE-1.0.3.zip.002",
-              "size": 714986225,
-              "sha256": "127766d12347c28318e5189e69c054343082d6b8d995720ef9b9eaec5d13036c"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.002",
+              "size": 714986173,
+              "sha256": "3a5d92c7ed0508a143db7fa43050cb982ba14041807fb3d5eb674c4e5bcc02da"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
           "released": "2026-11-24",
           "patchNotes": [
+            {
+              "version": "1.0.4",
+              "date": "2026-11-24",
+              "changes": [
+                "Fixed the game freezing on its loading screen"
+              ]
+            },
             {
               "version": "1.0.3",
               "date": "2026-11-24",
