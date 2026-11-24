@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-18T05:37:20.624Z",
+  "generatedAt": "2026-11-24T10:55:05.133Z",
   "games": [
     {
       "id": "sweetfang",
@@ -388,6 +388,158 @@
           ]
         }
       }
+    },
+    {
+      "id": "low-tide",
+      "title": "LOW TIDE",
+      "publisher": "HAMMS Studios",
+      "partner": false,
+      "status": "released",
+      "featured": true,
+      "order": 2,
+      "type": "download",
+      "tagline": "Port Hollis, 1977. Three days to pay what you owe.",
+      "description": "Ray Castell runs a fast boat out of Port Hollis, and he owes the Moretti crew fifty thousand dollars. Vic Sarno wants it paid by the third dawn. Run cargo past the Harbor Patrol, take side work on the docks, steal a car when you need one and buy guns from Augie under the counter. When the scanner lights up, the Patrol comes in waves, each one harder than the last: shoot your way out, lose them on the water, or go down fighting. A mini open-world crime story you finish in an evening, with two endings and a case file that grades how you did it.",
+      "features": [
+        "A whole island harbor to run: drive the boat all the way round, walk the quay, take any car",
+        "Three days and nights, seven story jobs plus side work on the docks",
+        "A police scanner that escalates in waves: lose them, or wipe them out",
+        "Third-person gunfights with cover, grenades and Molotovs",
+        "Two endings and a graded case file at the end",
+        "An original 80s soundtrack and a fully voiced cast",
+        "Play on PlayStation or Xbox controller, or keyboard and mouse"
+      ],
+      "genres": [
+        "Action",
+        "Crime",
+        "Open World"
+      ],
+      "engine": "Godot 4",
+      "players": "1 player",
+      "media": {
+        "cover": "games/low-tide/cover.jpg",
+        "banner": "games/low-tide/banner.jpg",
+        "hero": "games/low-tide/hero.jpg",
+        "logo": "games/low-tide/logo.png",
+        "logoInBanner": false,
+        "screenshots": [
+          "games/low-tide/screenshot-1.jpg",
+          "games/low-tide/screenshot-2.jpg",
+          "games/low-tide/screenshot-3.jpg",
+          "games/low-tide/screenshot-4.jpg",
+          "games/low-tide/screenshot-5.jpg",
+          "games/low-tide/screenshot-6.jpg"
+        ],
+        "trailer": ""
+      },
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 64-bit",
+          "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "ram": "8 GB",
+          "gpu": "NVIDIA GTX 1060 6 GB / AMD RX 580",
+          "storage": "12 GB free while installing (5 GB after)",
+          "check": {
+            "ramGB": 8,
+            "cores": 4,
+            "dedicatedGPU": true
+          }
+        },
+        "recommended": {
+          "os": "Windows 10/11 64-bit",
+          "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+          "ram": "16 GB",
+          "gpu": "NVIDIA RTX 2060 or better",
+          "storage": "12 GB free while installing (5 GB after), SSD",
+          "check": {
+            "ramGB": 16,
+            "cores": 6,
+            "dedicatedGPU": true
+          }
+        }
+      },
+      "executable": "LOW_TIDE.exe",
+      "shaderCacheDirs": [
+        "{appdata}/Godot/app_userdata/LOW TIDE/shader_cache"
+      ],
+      "singleBuild": true,
+      "builds": {
+        "standard": {
+          "label": "High",
+          "version": "1.0.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.001",
+          "sha256": null,
+          "size": 2664698287,
+          "parts": [
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.001",
+              "size": 1950000000,
+              "sha256": "a0049b42644d08baf1c89c65376c0c29ad415652a77326459bdfa7237d167661"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.002",
+              "size": 714698287,
+              "sha256": "1d77db385677ba39a2a9c21e84575925f3099517bee66a443840b1dfc3f6ad5d"
+            }
+          ],
+          "executable": "LOW_TIDE.exe",
+          "launchArgs": [],
+          "released": "2026-11-24",
+          "patchNotes": [
+            {
+              "version": "1.0.0",
+              "date": "2026-11-24",
+              "changes": [
+                "First release of LOW TIDE: Port Hollis, 1977. Three days to pay the Moretti crew what Ray owes.",
+                "Seven story jobs across three days and nights, side work on the docks, two endings and a graded case file",
+                "Run the whole island by boat, on foot or in any car you can take",
+                "The Harbor Patrol comes in waves: lose them on the water or fight it out",
+                "Augie's Marine & Auto on the east quay for boat and car work, and guns from Day 2",
+                "Pick Ray's look and outfit at the main menu",
+                "PlayStation, Xbox controller or keyboard and mouse"
+              ]
+            }
+          ]
+        },
+        "lite": {
+          "label": "High",
+          "version": "1.0.0",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.001",
+          "sha256": null,
+          "size": 2664698287,
+          "parts": [
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.001",
+              "size": 1950000000,
+              "sha256": "a0049b42644d08baf1c89c65376c0c29ad415652a77326459bdfa7237d167661"
+            },
+            {
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.0/LOW_TIDE-1.0.0.zip.002",
+              "size": 714698287,
+              "sha256": "1d77db385677ba39a2a9c21e84575925f3099517bee66a443840b1dfc3f6ad5d"
+            }
+          ],
+          "executable": "LOW_TIDE.exe",
+          "launchArgs": [],
+          "released": "2026-11-24",
+          "patchNotes": [
+            {
+              "version": "1.0.0",
+              "date": "2026-11-24",
+              "changes": [
+                "First release of LOW TIDE: Port Hollis, 1977. Three days to pay the Moretti crew what Ray owes.",
+                "Seven story jobs across three days and nights, side work on the docks, two endings and a graded case file",
+                "Run the whole island by boat, on foot or in any car you can take",
+                "The Harbor Patrol comes in waves: lose them on the water or fight it out",
+                "Augie's Marine & Auto on the east quay for boat and car work, and guns from Day 2",
+                "Pick Ray's look and outfit at the main menu",
+                "PlayStation, Xbox controller or keyboard and mouse"
+              ]
+            }
+          ]
+        }
+      },
+      "minLauncherVersion": "1.3.0"
     },
     {
       "id": "pivot",
