@@ -69,5 +69,6 @@
   "executable": "PIVOT.exe",
   "shaderCacheDirs": [
     "{appdata}/Godot/app_userdata/PIVOT!/shader_cache"
-  ]
+  ],
+  "hidden": true
 }
