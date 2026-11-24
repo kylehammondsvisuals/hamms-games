@@ -1,0 +1,75 @@
+{
+  "id": "low-tide",
+  "title": "LOW TIDE",
+  "publisher": "HAMMS Studios",
+  "partner": false,
+  "status": "released",
+  "featured": true,
+  "order": 2,
+  "type": "download",
+  "tagline": "Port Hollis, 1977. Three days to pay what you owe.",
+  "description": "Ray Castell runs a fast boat out of Port Hollis, and he owes the Moretti crew fifty thousand dollars. Vic Sarno wants it paid by the third dawn. Run cargo past the Harbor Patrol, take side work on the docks, steal a car when you need one and buy guns from Augie under the counter. When the scanner lights up, the Patrol comes in waves, each one harder than the last: shoot your way out, lose them on the water, or go down fighting. A mini open-world crime story you finish in an evening, with two endings and a case file that grades how you did it.",
+  "features": [
+    "A whole island harbor to run: drive the boat all the way round, walk the quay, take any car",
+    "Three days and nights, seven story jobs plus side work on the docks",
+    "A police scanner that escalates in waves: lose them, or wipe them out",
+    "Third-person gunfights with cover, grenades and Molotovs",
+    "Two endings and a graded case file at the end",
+    "An original 80s soundtrack and a fully voiced cast",
+    "Play on PlayStation or Xbox controller, or keyboard and mouse"
+  ],
+  "genres": [
+    "Action",
+    "Crime",
+    "Open World"
+  ],
+  "engine": "Godot 4",
+  "players": "1 player",
+  "media": {
+    "cover": "cover.jpg",
+    "banner": "banner.jpg",
+    "hero": "hero.jpg",
+    "logo": "logo.png",
+    "logoInBanner": false,
+    "screenshots": [
+      "screenshot-1.jpg",
+      "screenshot-2.jpg",
+      "screenshot-3.jpg",
+      "screenshot-4.jpg",
+      "screenshot-5.jpg",
+      "screenshot-6.jpg"
+    ],
+    "trailer": ""
+  },
+  "requirements": {
+    "minimum": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+      "ram": "8 GB",
+      "gpu": "NVIDIA GTX 1060 6 GB / AMD RX 580",
+      "storage": "12 GB free while installing (5 GB after)",
+      "check": {
+        "ramGB": 8,
+        "cores": 4,
+        "dedicatedGPU": true
+      }
+    },
+    "recommended": {
+      "os": "Windows 10/11 64-bit",
+      "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+      "ram": "16 GB",
+      "gpu": "NVIDIA RTX 2060 or better",
+      "storage": "12 GB free while installing (5 GB after), SSD",
+      "check": {
+        "ramGB": 16,
+        "cores": 6,
+        "dedicatedGPU": true
+      }
+    }
+  },
+  "executable": "LOW_TIDE.exe",
+  "shaderCacheDirs": [
+    "{appdata}/Godot/app_userdata/LOW TIDE/shader_cache"
+  ],
+  "singleBuild": true
+}
