@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-24T22:55:43.071Z",
+  "generatedAt": "2026-11-25T02:56:23.041Z",
   "games": [
     {
       "id": "sweetfang",
@@ -467,26 +467,34 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.0.4",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
+          "version": "1.0.5",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.001",
           "sha256": null,
-          "size": 2664986173,
+          "size": 2664992934,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.001",
               "size": 1950000000,
-              "sha256": "4032d10de10b1b749ced067c7018874fa759cda62985d3060f5a00cdeb418aeb"
+              "sha256": "45e3c879d5abe42f0bf809a7e2fece7f5b805667bc3a0fbb7bd5fb938a7c1c6a"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.002",
-              "size": 714986173,
-              "sha256": "3a5d92c7ed0508a143db7fa43050cb982ba14041807fb3d5eb674c4e5bcc02da"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.002",
+              "size": 714992934,
+              "sha256": "fc68644aa79c43147dd8ee2cc948a8f030388b5e005894b50b2a4a8e68f3b140"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
-          "released": "2026-11-24",
+          "released": "2026-11-25",
           "patchNotes": [
+            {
+              "version": "1.0.5",
+              "date": "2026-11-25",
+              "changes": [
+                "THE RAT: Rosie meets you at the diner door, the Net Loft marker is at the loft, Leon's locker is a real locker, and Leon has a marker while you chase him",
+                "Fixed broken hair and see-through faces on some townspeople"
+              ]
+            },
             {
               "version": "1.0.4",
               "date": "2026-11-24",
@@ -533,26 +541,34 @@
         },
         "lite": {
           "label": "High",
-          "version": "1.0.4",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
+          "version": "1.0.5",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.001",
           "sha256": null,
-          "size": 2664986173,
+          "size": 2664992934,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.001",
               "size": 1950000000,
-              "sha256": "4032d10de10b1b749ced067c7018874fa759cda62985d3060f5a00cdeb418aeb"
+              "sha256": "45e3c879d5abe42f0bf809a7e2fece7f5b805667bc3a0fbb7bd5fb938a7c1c6a"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.4/LOW_TIDE-1.0.4.zip.002",
-              "size": 714986173,
-              "sha256": "3a5d92c7ed0508a143db7fa43050cb982ba14041807fb3d5eb674c4e5bcc02da"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.5/LOW_TIDE-1.0.5.zip.002",
+              "size": 714992934,
+              "sha256": "fc68644aa79c43147dd8ee2cc948a8f030388b5e005894b50b2a4a8e68f3b140"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
-          "released": "2026-11-24",
+          "released": "2026-11-25",
           "patchNotes": [
+            {
+              "version": "1.0.5",
+              "date": "2026-11-25",
+              "changes": [
+                "THE RAT: Rosie meets you at the diner door, the Net Loft marker is at the loft, Leon's locker is a real locker, and Leon has a marker while you chase him",
+                "Fixed broken hair and see-through faces on some townspeople"
+              ]
+            },
             {
               "version": "1.0.4",
               "date": "2026-11-24",
