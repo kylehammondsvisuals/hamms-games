@@ -1,7 +1,7 @@
 {
   "studio": "HAMMS Studios",
   "schema": 2,
-  "generatedAt": "2026-11-25T07:25:19.036Z",
+  "generatedAt": "2026-11-28T14:48:08.902Z",
   "games": [
     {
       "id": "sweetfang",
@@ -467,26 +467,37 @@
       "builds": {
         "standard": {
           "label": "High",
-          "version": "1.0.6",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.001",
+          "version": "1.0.7",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.001",
           "sha256": null,
-          "size": 2665002774,
+          "size": 2665011956,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.001",
               "size": 1950000000,
-              "sha256": "e97922d77e599f120deeab61f2d3e24c076c817e681406012646188fd52c1009"
+              "sha256": "e2b5f00c166651f53483757cdb7cd759c73b6c5f6ba55fa611ea5e2428496cca"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.002",
-              "size": 715002774,
-              "sha256": "48ddfc42f0415d5150954b2a89bfef99d7deb56ee223aba334eca5c5ba589d59"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.002",
+              "size": 715011956,
+              "sha256": "96d1400ef0810c27720802d7b689accd022ff4018d4bc4eb7c85ed0ebc1d823f"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
-          "released": "2026-11-25",
+          "released": "2026-11-28",
           "patchNotes": [
+            {
+              "version": "1.0.7",
+              "date": "2026-11-28",
+              "changes": [
+                "More action on the main story: every walk between story stops now has a fight",
+                "Day 1: waterfront muscle jumps you on the quay on the way to Pier A",
+                "Day 2: Doyle's boys on Harbor Ave and outside Augie's lockup on Canal Row",
+                "Gunmen take cover behind oil drums on the docks and their own cars on the streets",
+                "Restart from the last fight you won if you go down"
+              ]
+            },
             {
               "version": "1.0.6",
               "date": "2026-11-25",
@@ -550,26 +561,37 @@
         },
         "lite": {
           "label": "High",
-          "version": "1.0.6",
-          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.001",
+          "version": "1.0.7",
+          "downloadUrl": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.001",
           "sha256": null,
-          "size": 2665002774,
+          "size": 2665011956,
           "parts": [
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.001",
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.001",
               "size": 1950000000,
-              "sha256": "e97922d77e599f120deeab61f2d3e24c076c817e681406012646188fd52c1009"
+              "sha256": "e2b5f00c166651f53483757cdb7cd759c73b6c5f6ba55fa611ea5e2428496cca"
             },
             {
-              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.6/LOW_TIDE-1.0.6.zip.002",
-              "size": 715002774,
-              "sha256": "48ddfc42f0415d5150954b2a89bfef99d7deb56ee223aba334eca5c5ba589d59"
+              "url": "https://github.com/kylehammondsvisuals/hamms-games/releases/download/low-tide-v1.0.7/LOW_TIDE-1.0.7.zip.002",
+              "size": 715011956,
+              "sha256": "96d1400ef0810c27720802d7b689accd022ff4018d4bc4eb7c85ed0ebc1d823f"
             }
           ],
           "executable": "LOW_TIDE.exe",
           "launchArgs": [],
-          "released": "2026-11-25",
+          "released": "2026-11-28",
           "patchNotes": [
+            {
+              "version": "1.0.7",
+              "date": "2026-11-28",
+              "changes": [
+                "More action on the main story: every walk between story stops now has a fight",
+                "Day 1: waterfront muscle jumps you on the quay on the way to Pier A",
+                "Day 2: Doyle's boys on Harbor Ave and outside Augie's lockup on Canal Row",
+                "Gunmen take cover behind oil drums on the docks and their own cars on the streets",
+                "Restart from the last fight you won if you go down"
+              ]
+            },
             {
               "version": "1.0.6",
               "date": "2026-11-25",
